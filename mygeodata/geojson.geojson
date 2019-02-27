@@ -1,0 +1,7642 @@
+var properties={
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-11-02T04:35:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295597291",
+        "highway": "platform",
+        "name": "E",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.6982042,
+            10.7704679
+          ],
+          [
+            106.6987346,
+            10.7706725
+          ]
+        ]
+      },
+      "id": "way/295597291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295597292",
+        "highway": "platform",
+        "name": "C",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.6986607,
+            10.7708302
+          ],
+          [
+            106.6982297,
+            10.770663
+          ]
+        ]
+      },
+      "id": "way/295597292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295597293",
+        "highway": "platform",
+        "name": "D",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.6981855,
+            10.7705087
+          ],
+          [
+            106.6987159,
+            10.7707133
+          ]
+        ]
+      },
+      "id": "way/295597293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295597294",
+        "highway": "platform",
+        "name": "F",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.6980722,
+            10.7703601
+          ],
+          [
+            106.6986026,
+            10.7705647
+          ]
+        ]
+      },
+      "id": "way/295597294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295597295",
+        "highway": "platform",
+        "name": "B",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.6987447,
+            10.7709042
+          ],
+          [
+            106.6982143,
+            10.7706996
+          ]
+        ]
+      },
+      "id": "way/295597295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295597297",
+        "highway": "platform",
+        "name": "A",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.6987627,
+            10.7709871
+          ],
+          [
+            106.6985463,
+            10.7709036
+          ],
+          [
+            106.6982323,
+            10.7707824
+          ]
+        ]
+      },
+      "id": "way/295597297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/383552890",
+        "highway": "bus_stop",
+        "name": "Cầu Nguyễn Văn Cừ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6878601,
+          10.7507477
+        ]
+      },
+      "id": "node/383552890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/943230041",
+        "highway": "bus_stop",
+        "name": "Trạm Xe Buýt",
+        "name:en": "Bus Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7070908,
+          10.7772449
+        ]
+      },
+      "id": "node/943230041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/946794512",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7075992,
+          10.7798184
+        ]
+      },
+      "id": "node/946794512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1226517253",
+        "highway": "bus_stop",
+        "name": "Nhà Văn Hóa TN",
+        "note": "37 NTMK",
+        "operator": "6, 14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6973423,
+          10.7821242
+        ]
+      },
+      "id": "node/1226517253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1226517290",
+        "highway": "bus_stop",
+        "name": "CV Tao Đàn",
+        "note": "59B NTMK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6900839,
+          10.7742614
+        ]
+      },
+      "id": "node/1226517290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1226517307",
+        "highway": "bus_stop",
+        "name": "Pasteur",
+        "note": "43 45 NTMK",
+        "operator": "6, 14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6961671,
+          10.7808671
+        ]
+      },
+      "id": "node/1226517307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1765166512",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6827789,
+          10.7609576
+        ]
+      },
+      "id": "node/1765166512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1765166514",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6824737,
+          10.7608026
+        ]
+      },
+      "id": "node/1765166514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1765166515",
+        "addr:housenumber": "235",
+        "addr:street": "Nguyễn Văn Cừ",
+        "highway": "bus_stop",
+        "note": "235 Nguyễn Văn Cừ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819889,
+          10.7643811
+        ]
+      },
+      "id": "node/1765166515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1765166516",
+        "addr:housenumber": "227",
+        "addr:street": "Nguyễn Văn Cừ",
+        "highway": "bus_stop",
+        "name": "Đại Học Khoa học Tự Nhiên",
+        "note": "227 Nguyễn Văn Cừ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6827251,
+          10.7625102
+        ]
+      },
+      "id": "node/1765166516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2246167633",
+        "highway": "bus_stop",
+        "name": "287 Hải Thượng Lãn Ông",
+        "note": "11-12 Hải Thượng Lãn Ông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6547743,
+          10.7508065
+        ]
+      },
+      "id": "node/2246167633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2341633260",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6870054,
+          10.7802929
+        ]
+      },
+      "id": "node/2341633260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2341633543",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.688207,
+          10.7793074
+        ]
+      },
+      "id": "node/2341633543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2341633617",
+        "highway": "bus_stop",
+        "name": "Nguyễn Đình Chiểu - Trương Định"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.689796,
+          10.7781607
+        ]
+      },
+      "id": "node/2341633617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2392398227",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6587579,
+          10.7527005
+        ]
+      },
+      "id": "node/2392398227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2392398232",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6589415,
+          10.7523634
+        ]
+      },
+      "id": "node/2392398232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2667727001",
+        "highway": "bus_stop",
+        "note": "138 NTMK",
+        "operator": "6,14,28,152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6928199,
+          10.7772074
+        ]
+      },
+      "id": "node/2667727001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2926904801",
+        "highway": "bus_stop",
+        "name": "Hồ Con Rùa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6951257,
+          10.7834056
+        ]
+      },
+      "id": "node/2926904801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2927328903",
+        "highway": "bus_stop",
+        "name": "Ward D.1, 36 Lê Lợi, Bến Nghé",
+        "name:en": "Mountain Retreat Vietnamese Restaurant",
+        "name:vi": "Ward D.1, 36 Lê Lợi, Bến Nghé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70063,
+          10.773708
+        ]
+      },
+      "id": "node/2927328903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2953682933",
+        "highway": "bus_stop",
+        "name": "Pasteur - Lê Thánh Tôn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7006817,
+          10.7751155
+        ]
+      },
+      "id": "node/2953682933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2990754933",
+        "highway": "bus_stop",
+        "name": "Hồ Con Rùa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6967115,
+          10.7835462
+        ]
+      },
+      "id": "node/2990754933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993362693",
+        "name": "Bến Thành F",
+        "public_transport": "stop_position",
+        "ref": "ĐTC F"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6986026,
+          10.7705647
+        ]
+      },
+      "id": "node/2993362693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993362696",
+        "name": "Bến Thành E",
+        "public_transport": "stop_position",
+        "ref": "ĐTC E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6987346,
+          10.7706725
+        ]
+      },
+      "id": "node/2993362696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993362698",
+        "name": "Bến Thành C",
+        "public_transport": "stop_position",
+        "ref": "ĐTC C"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6982297,
+          10.770663
+        ]
+      },
+      "id": "node/2993362698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993362700",
+        "name": "Bến Thành C",
+        "public_transport": "stop_position",
+        "ref": "ĐTC D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6987159,
+          10.7707133
+        ]
+      },
+      "id": "node/2993362700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993362701",
+        "name": "Bến Thành B",
+        "public_transport": "stop_position",
+        "ref": "ĐTC B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6982143,
+          10.7706996
+        ]
+      },
+      "id": "node/2993362701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993362704",
+        "name": "Bến Thành A",
+        "public_transport": "stop_position",
+        "ref": "ĐTC A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6982323,
+          10.7707824
+        ]
+      },
+      "id": "node/2993362704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3016612589",
+        "highway": "bus_stop",
+        "name": "Bảo tàng Tôn Đức Thắng",
+        "name:en": "Bus 12,56,88"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7070326,
+          10.7774074
+        ]
+      },
+      "id": "node/3016612589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116310150",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6915251,
+          10.7780273
+        ]
+      },
+      "id": "node/3116310150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116310151",
+        "highway": "bus_stop",
+        "name": "Đại Học Mở TPHCM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6903806,
+          10.7767056
+        ]
+      },
+      "id": "node/3116310151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116310152",
+        "highway": "bus_stop",
+        "name": "CV Tao Đàn",
+        "note": "17 Bà Huyện Thanh Quan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6901658,
+          10.7752639
+        ]
+      },
+      "id": "node/3116310152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116310153",
+        "highway": "bus_stop",
+        "note": "284 NTMK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6891355,
+          10.7733888
+        ]
+      },
+      "id": "node/3116310153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116310154",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6853807,
+          10.7695657
+        ]
+      },
+      "id": "node/3116310154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116310156",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6825836,
+          10.7665655
+        ]
+      },
+      "id": "node/3116310156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116315714",
+        "addr:housenumber": "370",
+        "addr:street": "An Dương Vương",
+        "highway": "bus_stop",
+        "name": "An Dương Vương - Lê Hồng Phong",
+        "note": "370 An Dương Vương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6786913,
+          10.7593413
+        ]
+      },
+      "id": "node/3116315714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116315718",
+        "highway": "bus_stop",
+        "name": "Nguyễn Tri Phương - Hùng Vương",
+        "note": "132A Nguyễn Tri Phương",
+        "operator": "59,150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6695562,
+          10.7571496
+        ]
+      },
+      "id": "node/3116315718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116315719",
+        "addr:housenumber": "120",
+        "addr:street": "Hồng Bàng",
+        "highway": "bus_stop",
+        "name": "Đối diện Bệnh viện Đại học Y Dược",
+        "note": "120 Hồng Bàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6650113,
+          10.7559483
+        ]
+      },
+      "id": "node/3116315719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116315720",
+        "addr:housenumber": "132",
+        "addr:street": "Hồng Bàng",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Hùng Vương",
+        "note": "132 Hồng Bàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6612051,
+          10.7551848
+        ]
+      },
+      "id": "node/3116315720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116315721",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6594476,
+          10.7548685
+        ]
+      },
+      "id": "node/3116315721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116315722",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6580091,
+          10.7545775
+        ]
+      },
+      "id": "node/3116315722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339929",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6580638,
+          10.7529004
+        ]
+      },
+      "id": "node/3116339929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339930",
+        "highway": "bus_stop",
+        "name": "695 Nguyễn Trãi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6616053,
+          10.7530657
+        ]
+      },
+      "id": "node/3116339930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339931",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6635009,
+          10.7533293
+        ]
+      },
+      "id": "node/3116339931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339932",
+        "highway": "bus_stop",
+        "name": "Điện máy Chợ Lớn",
+        "name:en": "Bus 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6646205,
+          10.7536262
+        ]
+      },
+      "id": "node/3116339932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339937",
+        "highway": "bus_stop",
+        "name": "Chung Cư Nguyễn Trãi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6679689,
+          10.7542875
+        ]
+      },
+      "id": "node/3116339937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339939",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6699247,
+          10.7546744
+        ]
+      },
+      "id": "node/3116339939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339942",
+        "highway": "bus_stop",
+        "name": "Bến xe Lê Hồng Phong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6767057,
+          10.7614803
+        ]
+      },
+      "id": "node/3116339942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339943",
+        "highway": "bus_stop",
+        "name": "Chợ Lê Hồng Phong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6755966,
+          10.764361
+        ]
+      },
+      "id": "node/3116339943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339945",
+        "highway": "bus_stop",
+        "name": "Bàn Cờ",
+        "note": "533 dbp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6772914,
+          10.7712134
+        ]
+      },
+      "id": "node/3116339945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339946",
+        "highway": "bus_stop",
+        "name": "Điện Biên Phủ - Cao Thắng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6795139,
+          10.7731617
+        ]
+      },
+      "id": "node/3116339946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339947",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Bình Dân",
+        "note": "371 ĐBP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.681099,
+          10.7745133
+        ]
+      },
+      "id": "node/3116339947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339948",
+        "highway": "bus_stop",
+        "name": "Ngã 4 CMT8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6839593,
+          10.7769515
+        ]
+      },
+      "id": "node/3116339948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339949",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Mắt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.685171,
+          10.7780742
+        ]
+      },
+      "id": "node/3116339949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339950",
+        "highway": "bus_stop",
+        "name": "THPT Nguyễn Thị Minh Khai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6874916,
+          10.780274
+        ]
+      },
+      "id": "node/3116339950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116339951",
+        "highway": "bus_stop",
+        "name": "Trường Marie Curie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69017,
+          10.7828612
+        ]
+      },
+      "id": "node/3116339951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882960",
+        "highway": "bus_stop",
+        "name": "QL50-TPHCM(1)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6562,
+          10.7367004
+        ]
+      },
+      "id": "node/3116882960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882961",
+        "highway": "bus_stop",
+        "name": "QL50-LA(2)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6562074,
+          10.7369386
+        ]
+      },
+      "id": "node/3116882961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882962",
+        "highway": "bus_stop",
+        "name": "QL50-TPHCM(2)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.656292,
+          10.7385513
+        ]
+      },
+      "id": "node/3116882962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882963",
+        "highway": "bus_stop",
+        "name": "QL50-LA(3)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6562611,
+          10.7384042
+        ]
+      },
+      "id": "node/3116882963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882964",
+        "highway": "bus_stop",
+        "name": "QL50-TPHCM(3)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6562774,
+          10.7443179
+        ]
+      },
+      "id": "node/3116882964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882965",
+        "highway": "bus_stop",
+        "name": "QL50-LA(4)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6564275,
+          10.7444887
+        ]
+      },
+      "id": "node/3116882965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882966",
+        "highway": "bus_stop",
+        "name": "QL50-TPHCM(5)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6598244,
+          10.7462332
+        ]
+      },
+      "id": "node/3116882966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882967",
+        "highway": "bus_stop",
+        "name": "QL50-LA(5)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6595601,
+          10.7465993
+        ]
+      },
+      "id": "node/3116882967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882974",
+        "highway": "bus_stop",
+        "name": "Lý Thường Kiệt - Hồng Bàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6620353,
+          10.7563183
+        ]
+      },
+      "id": "node/3116882974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882975",
+        "highway": "bus_stop",
+        "name": "Hồng Bàng - Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6621023,
+          10.7564285
+        ]
+      },
+      "id": "node/3116882975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882976",
+        "highway": "bus_stop",
+        "name": "Coop Mart Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6611901,
+          10.7596862
+        ]
+      },
+      "id": "node/3116882976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882977",
+        "highway": "bus_stop",
+        "name": "Coop Mart Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6610698,
+          10.7597693
+        ]
+      },
+      "id": "node/3116882977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882978",
+        "highway": "bus_stop",
+        "name": "CC Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6606888,
+          10.7614763
+        ]
+      },
+      "id": "node/3116882978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882979",
+        "highway": "bus_stop",
+        "name": "CC Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6606106,
+          10.7614105
+        ]
+      },
+      "id": "node/3116882979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882980",
+        "highway": "bus_stop",
+        "name": "Nhà Hàng Phong Lan",
+        "operator": "8,66,103,50,94"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6596901,
+          10.7650426
+        ]
+      },
+      "id": "node/3116882980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882981",
+        "highway": "bus_stop",
+        "name": "Nhà Hàng Phong Lan",
+        "operator": "8,66,103,50,94"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6596208,
+          10.7649487
+        ]
+      },
+      "id": "node/3116882981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882982",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Trưng Vương",
+        "operator": "8,66,103,50,94"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6582589,
+          10.7698164
+        ]
+      },
+      "id": "node/3116882982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882983",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Trưng Vương",
+        "operator": "8,66,103,50,94"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6583734,
+          10.7697444
+        ]
+      },
+      "id": "node/3116882983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882984",
+        "highway": "bus_stop",
+        "name": "Đại Học Bách Khoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6577752,
+          10.7715454
+        ]
+      },
+      "id": "node/3116882984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882986",
+        "highway": "bus_stop",
+        "name": "Bưu điện Quận 10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6564286,
+          10.7763585
+        ]
+      },
+      "id": "node/3116882986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882987",
+        "highway": "bus_stop",
+        "name": "Bưu điện Quận 10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6564848,
+          10.7764886
+        ]
+      },
+      "id": "node/3116882987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882988",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6558747,
+          10.7787098
+        ]
+      },
+      "id": "node/3116882988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882989",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6556702,
+          10.7788161
+        ]
+      },
+      "id": "node/3116882989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882990",
+        "highway": "bus_stop",
+        "name": "CMC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6546751,
+          10.7828744
+        ]
+      },
+      "id": "node/3116882990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882991",
+        "highway": "bus_stop",
+        "name": "CMC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6545455,
+          10.7830371
+        ]
+      },
+      "id": "node/3116882991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3116882992",
+        "highway": "bus_stop",
+        "name": "Nghĩa Phát"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.654411,
+          10.783801
+        ]
+      },
+      "id": "node/3116882992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118842029",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6599301,
+          10.7719573
+        ]
+      },
+      "id": "node/3118842029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118842030",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6616396,
+          10.7739249
+        ]
+      },
+      "id": "node/3118842030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118842031",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6631464,
+          10.7758754
+        ]
+      },
+      "id": "node/3118842031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118842033",
+        "highway": "bus_stop",
+        "name": "Bệnh viện 115"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6646138,
+          10.7738264
+        ]
+      },
+      "id": "node/3118842033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118842034",
+        "highway": "bus_stop",
+        "name": "Học viện Quân Y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6651725,
+          10.7723901
+        ]
+      },
+      "id": "node/3118842034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118842035",
+        "highway": "bus_stop",
+        "name": "Trường THPT Diên Hồng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6661891,
+          10.7697677
+        ]
+      },
+      "id": "node/3118842035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118842036",
+        "highway": "bus_stop",
+        "name": "Siêu thị Sài Gòn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.666733,
+          10.7685467
+        ]
+      },
+      "id": "node/3118842036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3124681584",
+        "bus": "yes",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6778573,
+          10.754519
+        ]
+      },
+      "id": "node/3124681584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3124681590",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cục Hải Quan Thành Phố",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7056442,
+          10.7709405
+        ]
+      },
+      "id": "node/3124681590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3124681591",
+        "bus": "yes",
+        "name": "KTX Trần Hưng Đạo",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6946983,
+          10.7673622
+        ]
+      },
+      "id": "node/3124681591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3124681592",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bến Bạch Đằng, 56, ...",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7064278,
+          10.7732703
+        ]
+      },
+      "id": "node/3124681592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3124681594",
+        "bus": "yes",
+        "name": "Rạp Đồng Tháp",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6760025,
+          10.7539998
+        ]
+      },
+      "id": "node/3124681594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3124681595",
+        "bus": "yes",
+        "name": "Thánh Thất Sài Gòn",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.679796,
+          10.7550463
+        ]
+      },
+      "id": "node/3124681595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3124681597",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Trường Cao đẳng Kinh tế đối ngoại"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6818276,
+          10.7555839
+        ]
+      },
+      "id": "node/3124681597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3124681921",
+        "bus": "yes",
+        "name": "Đường Nguyễn Biểu",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6828285,
+          10.7558691
+        ]
+      },
+      "id": "node/3124681921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150110707",
+        "highway": "bus_stop",
+        "name": "Nguyễn Tri Phương - Vĩnh Viễn",
+        "note": "336 Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6680006,
+          10.7640095
+        ]
+      },
+      "id": "node/3150110707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150110708",
+        "highway": "bus_stop",
+        "name": "Nguyễn Tri Phương - Vĩnh Viễn",
+        "note": "399 Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6679882,
+          10.7635516
+        ]
+      },
+      "id": "node/3150110708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150110709",
+        "highway": "bus_stop",
+        "name": "Đại Học Kinh Tế TPHCM ( Cơ sở Nguyễn Tri Phương)",
+        "note": "279 Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6685521,
+          10.7610716
+        ]
+      },
+      "id": "node/3150110709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150110710",
+        "highway": "bus_stop",
+        "name": "Ngã 6 Nguyễn Tri Phương",
+        "note": "225 Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6690295,
+          10.7590308
+        ]
+      },
+      "id": "node/3150110710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150110711",
+        "highway": "bus_stop",
+        "name": "Ngã 6 Nguyễn Tri Phương",
+        "note": "225 Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6690843,
+          10.7592023
+        ]
+      },
+      "id": "node/3150110711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150110712",
+        "highway": "bus_stop",
+        "name": "Trân Phú - Trân Hưng Đạo",
+        "name:en": "Bus 1",
+        "note": "388 Trần Phú",
+        "operator": "01,59,17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.668592,
+          10.7529727
+        ]
+      },
+      "id": "node/3150110712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150112489",
+        "highway": "bus_stop",
+        "name": "Lữ Gia - Sân vận động Phú Thọ",
+        "note": "14 Lữ Gia",
+        "operator": "69,38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6571756,
+          10.7705227
+        ]
+      },
+      "id": "node/3150112489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150112490",
+        "highway": "bus_stop",
+        "name": "Coopmart Lữ Gia",
+        "note": "70 Lữ Gia",
+        "operator": "69,38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6535703,
+          10.7710711
+        ]
+      },
+      "id": "node/3150112490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150112491",
+        "highway": "bus_stop",
+        "name": "Nguyễn Thị Nhỏ - Coopmart Lữ Gia",
+        "note": "67 Nguyễn Thị Nhỏ",
+        "operator": "69,38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6526149,
+          10.7702073
+        ]
+      },
+      "id": "node/3150112491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150623832",
+        "highway": "bus_stop",
+        "name": "Lê Đại Hành - Flemington",
+        "operator": "27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6549135,
+          10.7653693
+        ]
+      },
+      "id": "node/3150623832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150623833",
+        "highway": "bus_stop",
+        "name": "Lê Đại Hành - Sân vận động Phú Thọ",
+        "operator": "27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6531443,
+          10.7679619
+        ]
+      },
+      "id": "node/3150623833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150623834",
+        "highway": "bus_stop",
+        "name": "Lê Đại Hành - Đối diện Sân vận động Phú Thọ",
+        "operator": "27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6531852,
+          10.7676857
+        ]
+      },
+      "id": "node/3150623834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150623835",
+        "highway": "bus_stop",
+        "name": "Lê Đại Hành - Đối diện Flemington",
+        "operator": "27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6551268,
+          10.7648824
+        ]
+      },
+      "id": "node/3150623835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150623836",
+        "highway": "bus_stop",
+        "name": "3/2 - Nhà Sách Phương Nam",
+        "operator": "2,14,27,103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6589231,
+          10.7633207
+        ]
+      },
+      "id": "node/3150623836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150623837",
+        "highway": "bus_stop",
+        "name": "3/2 - Đối diện Nhà sách Phương Nam",
+        "operator": "2,14,27,103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6586066,
+          10.7630396
+        ]
+      },
+      "id": "node/3150623837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150623838",
+        "highway": "bus_stop",
+        "name": "3/2 - Nguyễn Kim",
+        "operator": "2,14,27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6613192,
+          10.764505
+        ]
+      },
+      "id": "node/3150623838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150623839",
+        "highway": "bus_stop",
+        "name": "3/2 - Nguyễn Kim",
+        "operator": "2,14,27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6616782,
+          10.7648017
+        ]
+      },
+      "id": "node/3150623839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150623840",
+        "highway": "bus_stop",
+        "name": "3/2 - Ngô Quyền",
+        "operator": "2,14,27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6638606,
+          10.7658608
+        ]
+      },
+      "id": "node/3150623840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775221",
+        "highway": "bus_stop",
+        "name": "Đối diện Bệnh Viện Nhi Đồng 1",
+        "operator": "38,69,27,10,14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6692498,
+          10.7678754
+        ]
+      },
+      "id": "node/3150775221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775222",
+        "highway": "bus_stop",
+        "name": "Bệnh Viện Nhi Đồng 1",
+        "operator": "14,69,27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6691782,
+          10.7679665
+        ]
+      },
+      "id": "node/3150775222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775223",
+        "addr:housenumber": "183",
+        "addr:street": "Lý Thái Tổ",
+        "highway": "bus_stop",
+        "note": "183 Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6732443,
+          10.7676922
+        ]
+      },
+      "id": "node/3150775223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775224",
+        "highway": "bus_stop",
+        "note": "Đối diện 183 Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6731111,
+          10.7677829
+        ]
+      },
+      "id": "node/3150775224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775225",
+        "addr:housenumber": "306",
+        "addr:street": "Lý Thái Tổ",
+        "highway": "bus_stop",
+        "name": "Ngã 7 Lý Thái Tổ",
+        "note": "306 Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6755138,
+          10.7673983
+        ]
+      },
+      "id": "node/3150775225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775226",
+        "addr:housenumber": "27B",
+        "addr:street": "Lý Thái Tổ",
+        "highway": "bus_stop",
+        "name": "Ngã 7 Lý Thái Tổ",
+        "note": "27B Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6756995,
+          10.7672452
+        ]
+      },
+      "id": "node/3150775226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775227",
+        "addr:housenumber": "Đối diện 30 - 32",
+        "addr:street": "Lý Thái Tổ",
+        "highway": "bus_stop",
+        "note": "Đối diện 30 - 32 Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.680325,
+          10.7658081
+        ]
+      },
+      "id": "node/3150775227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775228",
+        "addr:housenumber": "30 - 32",
+        "addr:street": "Lý Thái Tổ",
+        "highway": "bus_stop",
+        "note": "30 - 32 Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6802177,
+          10.7659225
+        ]
+      },
+      "id": "node/3150775228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775229",
+        "addr:housenumber": "Đối diện 235",
+        "addr:street": "Nguyễn Văn Cừ",
+        "highway": "bus_stop",
+        "note": "Đối diện 235 Nguyễn Văn Cừ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682071,
+          10.7645742
+        ]
+      },
+      "id": "node/3150775229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3150775230",
+        "addr:housenumber": "227",
+        "addr:street": "Nguyễn Văn Cừ",
+        "highway": "bus_stop",
+        "note": "227 Nguyễn Văn Cừ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6830734,
+          10.7620596
+        ]
+      },
+      "id": "node/3150775230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3151254797",
+        "addr:housenumber": "460",
+        "addr:street": "An Dương Vương",
+        "highway": "bus_stop",
+        "name": "An Dương Vương - Huỳnh Mẫn Đạt",
+        "note": "460 An Dương Vương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6765437,
+          10.7584595
+        ]
+      },
+      "id": "node/3151254797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3151254798",
+        "highway": "bus_stop",
+        "name": "Đối diện An Đông Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6731475,
+          10.7572931
+        ]
+      },
+      "id": "node/3151254798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3151254801",
+        "addr:housenumber": "546",
+        "addr:street": "Ngô Gia Tự",
+        "highway": "bus_stop",
+        "name": "Ký Túc Xá Đại học Y Dược",
+        "note": "546 Ngô Gia Tự"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6675014,
+          10.7578192
+        ]
+      },
+      "id": "node/3151254801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3151254802",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Đại học Y Dược"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6646126,
+          10.7556477
+        ]
+      },
+      "id": "node/3151254802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3152325555",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Chợ Rẫy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6586248,
+          10.757822
+        ]
+      },
+      "id": "node/3152325555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3152325556",
+        "addr:housenumber": "235",
+        "highway": "bus_stop",
+        "name": "235 Nguyễn Chí Thanh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6573589,
+          10.7575728
+        ]
+      },
+      "id": "node/3152325556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3152632050",
+        "highway": "bus_stop",
+        "name": "Hội thánh Tin Lành Việt Nam",
+        "note": "604 Nguyễn Chí Thanh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6551129,
+          10.7571232
+        ]
+      },
+      "id": "node/3152632050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3152632051",
+        "addr:housenumber": "79",
+        "addr:street": "Tạ Uyên",
+        "highway": "bus_stop",
+        "name": "Chợ Tân Thành",
+        "note": "79 Tạ Uyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6537488,
+          10.7554339
+        ]
+      },
+      "id": "node/3152632051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160522901",
+        "highway": "bus_stop",
+        "name": "3/2 - Tôn Thất Hiệp",
+        "note": "1114 3/2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6538147,
+          10.7605479
+        ]
+      },
+      "id": "node/3160522901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160522902",
+        "addr:housenumber": "1163",
+        "addr:street": "3 Tháng 2",
+        "highway": "bus_stop",
+        "name": "Đức Phát",
+        "ref": "Q11T014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6540518,
+          10.7605062
+        ]
+      },
+      "id": "node/3160522902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160527870",
+        "addr:housenumber": "1029",
+        "addr:street": "3 Tháng 2",
+        "highway": "bus_stop",
+        "name": "Lê Đại Hành",
+        "note": "1029 3/2",
+        "ref": "Q11T015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.656043,
+          10.7616112
+        ]
+      },
+      "id": "node/3160527870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160527871",
+        "highway": "bus_stop",
+        "name": "3/2 - Lãnh Binh Thăng",
+        "note": "970 3/2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6562075,
+          10.7618422
+        ]
+      },
+      "id": "node/3160527871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160527872",
+        "highway": "bus_stop",
+        "name": "Nhà Hát Hòa Bình",
+        "note": "240 3/2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6746118,
+          10.7719531
+        ]
+      },
+      "id": "node/3160527872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160533668",
+        "addr:housenumber": "183A-183B",
+        "addr:street": "3 Tháng 2",
+        "highway": "bus_stop",
+        "name": "Nhà hát Hòa Bình",
+        "ref": "Q10T018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6748363,
+          10.7719284
+        ]
+      },
+      "id": "node/3160533668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160533669",
+        "highway": "bus_stop",
+        "name": "Học viện Hành Chính Quốc gia",
+        "note": "10 3/2",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6783812,
+          10.7745467
+        ]
+      },
+      "id": "node/3160533669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160533670",
+        "addr:housenumber": "113",
+        "addr:street": "3 Tháng 2",
+        "highway": "bus_stop",
+        "name": "Học viện Hành Chính Quốc gia",
+        "ref": "Q10T019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6772301,
+          10.7733768
+        ]
+      },
+      "id": "node/3160533670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160535889",
+        "highway": "bus_stop",
+        "name": "Siêu thị Thiên Hòa",
+        "note": "132 CMT8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6806672,
+          10.7783377
+        ]
+      },
+      "id": "node/3160535889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160535890",
+        "highway": "bus_stop",
+        "name": "Sân khấu Lan Anh",
+        "note": "180 CMT8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6781655,
+          10.7796779
+        ]
+      },
+      "id": "node/3160535890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160535892",
+        "highway": "bus_stop",
+        "name": "TT Y Tế Dự Phòng Q10",
+        "note": "360A CMT8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.672974,
+          10.7824523
+        ]
+      },
+      "id": "node/3160535892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160535893",
+        "highway": "bus_stop",
+        "name": "Chợ Hòa Hưng",
+        "note": "442 CMT8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6707353,
+          10.7836511
+        ]
+      },
+      "id": "node/3160535893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160542982",
+        "highway": "bus_stop",
+        "name": "Kymdan",
+        "note": "87 Sư vạn hạnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6661007,
+          10.777211
+        ]
+      },
+      "id": "node/3160542982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160542983",
+        "highway": "bus_stop",
+        "name": "DH Huflit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6669882,
+          10.7761123
+        ]
+      },
+      "id": "node/3160542983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160542984",
+        "highway": "bus_stop",
+        "name": "724 Sư Vạn Hạnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6694926,
+          10.7720376
+        ]
+      },
+      "id": "node/3160542984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160542985",
+        "highway": "bus_stop",
+        "name": "3/2 - Sư Vạn Hạnh",
+        "note": "650 Sư Vạn Hạnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6704744,
+          10.7702033
+        ]
+      },
+      "id": "node/3160542985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160542986",
+        "highway": "bus_stop",
+        "name": "Sư Vạn Hạnh - Ngô Gia Tự",
+        "note": "400 Sư Vạn Hạnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6720572,
+          10.7655336
+        ]
+      },
+      "id": "node/3160542986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160542987",
+        "highway": "bus_stop",
+        "name": "Chung Cư Ngô Gia Tự",
+        "note": "Đối diện Lô 10 F"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6725532,
+          10.7633712
+        ]
+      },
+      "id": "node/3160542987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160542988",
+        "highway": "bus_stop",
+        "name": "Bệnh viện 30/4",
+        "note": "192 sư vạn hạnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6735947,
+          10.7587135
+        ]
+      },
+      "id": "node/3160542988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160543548",
+        "highway": "bus_stop",
+        "name": "34 Phú Hữu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6534845,
+          10.7525266
+        ]
+      },
+      "id": "node/3160543548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160543549",
+        "highway": "bus_stop",
+        "name": "951 Nguyễn Trãi",
+        "note": "951 Nguyễn Trãi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6547248,
+          10.7528092
+        ]
+      },
+      "id": "node/3160543549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160545656",
+        "highway": "bus_stop",
+        "name": "473 Hồng Bàng",
+        "note": "473 Hồng Bàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6547531,
+          10.7537927
+        ]
+      },
+      "id": "node/3160545656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160545657",
+        "highway": "bus_stop",
+        "name": "Nguyễn Tri Phương - Hùng Vương",
+        "note": "132A Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6694433,
+          10.7571879
+        ]
+      },
+      "id": "node/3160545657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160545658",
+        "highway": "bus_stop",
+        "name": "346 Trần Hưng Đạo",
+        "note": "346 Trần Hưng Đạo B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.661724,
+          10.7520473
+        ]
+      },
+      "id": "node/3160545658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160545659",
+        "highway": "bus_stop",
+        "name": "274 Trần hưng Đạo B",
+        "note": "274 Trần hưng Đạo B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6639112,
+          10.7522315
+        ]
+      },
+      "id": "node/3160545659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160545660",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Y Học Cổ Truyền - CS2",
+        "note": "212 Trần Hưng Đạo B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6660282,
+          10.7524098
+        ]
+      },
+      "id": "node/3160545660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160548761",
+        "highway": "bus_stop",
+        "name": "41 Trân Hưng Đạo B",
+        "name:en": "Bus 1",
+        "name:vi": "Trân Hưng Đạo B",
+        "note": "41 Trân Hưng Đạo B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6708387,
+          10.7527836
+        ]
+      },
+      "id": "node/3160548761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160548762",
+        "highway": "bus_stop",
+        "name": "Bệnh viện An Bình",
+        "note": "18 trần hưng đạo b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6714119,
+          10.7529032
+        ]
+      },
+      "id": "node/3160548762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160548763",
+        "highway": "bus_stop",
+        "name": "Rạp Đống Đa",
+        "note": "882 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6742368,
+          10.7534948
+        ]
+      },
+      "id": "node/3160548763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160548764",
+        "highway": "bus_stop",
+        "name": "Điện máy Gia Thành",
+        "note": "780 Trân Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6764485,
+          10.7540899
+        ]
+      },
+      "id": "node/3160548764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160548765",
+        "highway": "bus_stop",
+        "name": "Điện máy Gia Thành",
+        "name:en": "Bus 1",
+        "note": "981 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.676296,
+          10.7539597
+        ]
+      },
+      "id": "node/3160548765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160548849",
+        "highway": "bus_stop",
+        "note": "696 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6783493,
+          10.7546086
+        ]
+      },
+      "id": "node/3160548849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160548850",
+        "highway": "bus_stop",
+        "name:en": "Bus 1",
+        "note": "929 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.678207,
+          10.7544808
+        ]
+      },
+      "id": "node/3160548850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160548851",
+        "highway": "bus_stop",
+        "name": "Cao Đẳng Kinh Tế Đối Ngoại",
+        "note": "813 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6809509,
+          10.7552198
+        ]
+      },
+      "id": "node/3160548851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160548852",
+        "highway": "bus_stop",
+        "name": "Cao Đẳng Kinh Tế Đối Ngoại",
+        "name:en": "Bus No.1",
+        "note": "564 Trần Hưng Đạo",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.680675,
+          10.7552396
+        ]
+      },
+      "id": "node/3160548852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160554145",
+        "highway": "bus_stop",
+        "name": "Trung Tâm Y Tế Dự Phòng TPHCM",
+        "name:en": "Bus 1",
+        "note": "651 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6831391,
+          10.7558062
+        ]
+      },
+      "id": "node/3160554145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160554146",
+        "highway": "bus_stop",
+        "name": "Trung Tâm Y Tế Dự Phòng TPHCM",
+        "note": "454 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6830395,
+          10.7558799
+        ]
+      },
+      "id": "node/3160554146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160554147",
+        "highway": "bus_stop",
+        "name": "563 Trần Hưng Đạo",
+        "note": "563 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6854683,
+          10.7566675
+        ]
+      },
+      "id": "node/3160554147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160554148",
+        "highway": "bus_stop",
+        "name": "290 Trần Hưng Đạo",
+        "note": "290 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6856623,
+          10.7569678
+        ]
+      },
+      "id": "node/3160554148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160559458",
+        "highway": "bus_stop",
+        "note": "210 THD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6908622,
+          10.7628067
+        ]
+      },
+      "id": "node/3160559458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160559561",
+        "highway": "bus_stop",
+        "name:es": "Parada de autobús más cercana de la línea 152 al hotel número 11",
+        "note": "112 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6929387,
+          10.7652487
+        ]
+      },
+      "id": "node/3160559561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160564528",
+        "highway": "bus_stop",
+        "name": "Chợ Bình Tây",
+        "note": "13C - 13D Tháp Mười"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6545334,
+          10.7507545
+        ]
+      },
+      "id": "node/3160564528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160564529",
+        "highway": "bus_stop",
+        "name": "210-212 Hải Thượng Lãn Ông",
+        "note": "210-212 Hải Thượng Lãn Ông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6582969,
+          10.7508573
+        ]
+      },
+      "id": "node/3160564529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160567895",
+        "highway": "bus_stop",
+        "name": "Đối diện 103 Phạm Ngũ Lão",
+        "name:vi": "Seventeen Saloon music",
+        "note": "Đối diện 103 Phạm Ngũ Lão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6967725,
+          10.7700515
+        ]
+      },
+      "id": "node/3160567895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160583012",
+        "addr:street": "Cống Quỳnh",
+        "highway": "bus_stop",
+        "ref": "Q1T007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6877545,
+          10.766843
+        ]
+      },
+      "id": "node/3160583012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160583013",
+        "highway": "bus_stop",
+        "name": "Nhà sách Minh Khai",
+        "note": "492 NTMK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6824686,
+          10.7661699
+        ]
+      },
+      "id": "node/3160583013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160583014",
+        "highway": "bus_stop",
+        "name": "Đối diện Nhà sách Minh Khai",
+        "note": "488 NTMK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6825742,
+          10.7663861
+        ]
+      },
+      "id": "node/3160583014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160583016",
+        "highway": "bus_stop",
+        "name": "Đối diện Bệnh viện Từ Dũ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.685113,
+          10.7691058
+        ]
+      },
+      "id": "node/3160583016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160583017",
+        "highway": "bus_stop",
+        "name": "so thu tphcm",
+        "note": "99 NTMK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6877906,
+          10.7718193
+        ]
+      },
+      "id": "node/3160583017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3160616370",
+        "highway": "bus_stop",
+        "name": "Ngã 3 Hải Thượng Lãn Ông - Đỗ Ngọc Thạnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6557264,
+          10.7510123
+        ]
+      },
+      "id": "node/3160616370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3162506783",
+        "highway": "bus_stop",
+        "name": "Trung Tâm Chỉnh Hình Phục Hồi Chức Năng",
+        "note": "215 VTS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6844704,
+          10.7803182
+        ]
+      },
+      "id": "node/3162506783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3162506784",
+        "highway": "bus_stop",
+        "name": "Ngã 6 Dân Chủ",
+        "note": "274 Võ Thị Sáu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6826659,
+          10.7785015
+        ]
+      },
+      "id": "node/3162506784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3162508873",
+        "highway": "bus_stop",
+        "name": "Nhà Thiếu Nhi TPHCM",
+        "note": "200 VTS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6874811,
+          10.7833895
+        ]
+      },
+      "id": "node/3162508873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164232199",
+        "addr:street": "Tôn Đức Thắng",
+        "highway": "bus_stop",
+        "name": "Phà Thủ Thiêm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7066455,
+          10.7738441
+        ]
+      },
+      "id": "node/3164232199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164232200",
+        "highway": "bus_stop",
+        "name": "Cao Đẳng Kỹ Thuật Cao Thắng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7018736,
+          10.7711146
+        ]
+      },
+      "id": "node/3164232200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164237712",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6921094,
+          10.7721924
+        ]
+      },
+      "id": "node/3164237712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164237713",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6923453,
+          10.7719744
+        ]
+      },
+      "id": "node/3164237713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164237716",
+        "highway": "bus_stop",
+        "name": "Điện máy Ideas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6886508,
+          10.7740801
+        ]
+      },
+      "id": "node/3164237716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164237717",
+        "highway": "bus_stop",
+        "name": "Ngã 4 Nguyễn Đình Chiểu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6871226,
+          10.7748346
+        ]
+      },
+      "id": "node/3164237717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164239009",
+        "highway": "bus_stop",
+        "name": "Đối diện Trường Cao Thắng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7018916,
+          10.7709147
+        ]
+      },
+      "id": "node/3164239009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164258337",
+        "highway": "bus_stop",
+        "name": "Ngã 4 Điện Biên Phủ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6841852,
+          10.7764962
+        ]
+      },
+      "id": "node/3164258337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164258338",
+        "highway": "bus_stop",
+        "name": "Ngã 4 Điện Biên Phủ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6840194,
+          10.7764927
+        ]
+      },
+      "id": "node/3164258338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164258339",
+        "highway": "bus_stop",
+        "name": "Ngã 6 Dân Chủ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823157,
+          10.7774841
+        ]
+      },
+      "id": "node/3164258339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164258340",
+        "highway": "bus_stop",
+        "name": "Ngã 6 Dân Chủ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682379,
+          10.7773804
+        ]
+      },
+      "id": "node/3164258340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164258341",
+        "highway": "bus_stop",
+        "name": "Diem Dung Xe Buyt",
+        "name:en": "Bus 65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6927625,
+          10.7709682
+        ]
+      },
+      "id": "node/3164258341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164261850",
+        "highway": "bus_stop",
+        "name": "Chung Cư Nguyễn Thiện Thuật"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6792063,
+          10.7670025
+        ]
+      },
+      "id": "node/3164261850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164261851",
+        "highway": "bus_stop",
+        "name": "Chợ Bàn Cờ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6804787,
+          10.7683472
+        ]
+      },
+      "id": "node/3164261851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164261852",
+        "highway": "bus_stop",
+        "name": "Ngã 4 Nguyễn Đình Chiểu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6802989,
+          10.7676816
+        ]
+      },
+      "id": "node/3164261852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164261853",
+        "highway": "bus_stop",
+        "name": "UBND Phường 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6775192,
+          10.7699468
+        ]
+      },
+      "id": "node/3164261853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164261854",
+        "addr:housenumber": "31",
+        "highway": "bus_stop",
+        "name": "Nguyễn Đình Chiểu",
+        "ref": "Q3T019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823712,
+          10.7697739
+        ]
+      },
+      "id": "node/3164261854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164261855",
+        "highway": "bus_stop",
+        "name": "Đại Học Hoa Sen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6807047,
+          10.771272
+        ]
+      },
+      "id": "node/3164261855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3164261856",
+        "highway": "bus_stop",
+        "name": "156 Cao Thắng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6782984,
+          10.7733505
+        ]
+      },
+      "id": "node/3164261856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166133532",
+        "highway": "bus_stop",
+        "name": "Nguyễn Thị Nghĩa",
+        "name:de": "Nguyễn Thị Nghĩa",
+        "ref": "Q1T041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6933192,
+          10.7697456
+        ]
+      },
+      "id": "node/3166133532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166133535",
+        "highway": "bus_stop",
+        "name": "Bệnh Viện Đa Khoa Sài Gòn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6993154,
+          10.7723535
+        ]
+      },
+      "id": "node/3166133535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166133536",
+        "highway": "bus_stop",
+        "name": "Đối diện BV Đa Khoa Sài Gòn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6991983,
+          10.7725734
+        ]
+      },
+      "id": "node/3166133536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166140580",
+        "highway": "bus_stop",
+        "name": "Ngô Văn Năm",
+        "name:en": "Bus 12,56,88"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7077456,
+          10.7799883
+        ]
+      },
+      "id": "node/3166140580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166140581",
+        "highway": "bus_stop",
+        "name": "Nhà Máy Ba Son",
+        "name:en": "Bis 12,56,88"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7070534,
+          10.781588
+        ]
+      },
+      "id": "node/3166140581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166140582",
+        "highway": "bus_stop",
+        "name": "Đối diện Khoa SP Đại Học Sài Gòn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7067385,
+          10.7829273
+        ]
+      },
+      "id": "node/3166140582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166140583",
+        "highway": "bus_stop",
+        "name": "Khoa SP Đại Học Sài Gòn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.706696,
+          10.7831061
+        ]
+      },
+      "id": "node/3166140583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166179576",
+        "highway": "bus_stop",
+        "name": "Park Hyatt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7034918,
+          10.778015
+        ]
+      },
+      "id": "node/3166179576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166179577",
+        "highway": "bus_stop",
+        "name": "Trường Trần Đại Nghĩa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7016787,
+          10.7796568
+        ]
+      },
+      "id": "node/3166179577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166179578",
+        "highway": "bus_stop",
+        "name": "Lãnh sự Quán Pháp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6987641,
+          10.7822694
+        ]
+      },
+      "id": "node/3166179578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166367902",
+        "highway": "bus_stop",
+        "name": "Sư Vạn Hạnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6712238,
+          10.7699578
+        ]
+      },
+      "id": "node/3166367902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3166987989",
+        "highway": "bus_stop",
+        "name": "Cầu Calmette",
+        "name:de": "Cầu Calmette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6992443,
+          10.7679468
+        ]
+      },
+      "id": "node/3166987989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3167001368",
+        "highway": "bus_stop",
+        "name": "Đại học Kiến Trúc TPHCM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6941693,
+          10.7827644
+        ]
+      },
+      "id": "node/3167001368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3167001369",
+        "highway": "bus_stop",
+        "name": "TAND Quận 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6887766,
+          10.7770875
+        ]
+      },
+      "id": "node/3167001369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3167004171",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6862635,
+          10.7744369
+        ]
+      },
+      "id": "node/3167004171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3167004172",
+        "highway": "bus_stop",
+        "name": "Nguyễn Thượng Hiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6845353,
+          10.772601
+        ]
+      },
+      "id": "node/3167004172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3167004173",
+        "highway": "bus_stop",
+        "name": "Ngã 4 Cao Thắng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6818135,
+          10.7697557
+        ]
+      },
+      "id": "node/3167004173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168095078",
+        "highway": "bus_stop",
+        "name": "Pasteur - Lê Lợi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7013042,
+          10.7737108
+        ]
+      },
+      "id": "node/3168095078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168095079",
+        "highway": "bus_stop",
+        "name": "Phòng Trà Đồng Dao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6995173,
+          10.7772003
+        ]
+      },
+      "id": "node/3168095079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168095080",
+        "highway": "bus_stop",
+        "name": "Công Viên 30/4",
+        "name:en": "CV 30/4- SaiGon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6983306,
+          10.7782683
+        ]
+      },
+      "id": "node/3168095080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168095081",
+        "highway": "bus_stop",
+        "name": "Sở Ngoại Vụ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6963442,
+          10.7800898
+        ]
+      },
+      "id": "node/3168095081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168095082",
+        "highway": "bus_stop",
+        "name": "Đại Học Kiến Trúc TPHCM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6940713,
+          10.7821499
+        ]
+      },
+      "id": "node/3168095082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168095083",
+        "highway": "bus_stop",
+        "name": "Sở Tư Pháp TPHCM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6926717,
+          10.7834385
+        ]
+      },
+      "id": "node/3168095083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168120093",
+        "highway": "bus_stop",
+        "name": "THPT Marie Curie",
+        "name:ru": "109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6909722,
+          10.7832698
+        ]
+      },
+      "id": "node/3168120093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168120094",
+        "highway": "bus_stop",
+        "name": "TT TDTT Phan Đình Phùng",
+        "name:ru": "109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6931176,
+          10.781312
+        ]
+      },
+      "id": "node/3168120094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168120096",
+        "highway": "bus_stop",
+        "name": "TAND TPHCM",
+        "name:ru": "109 из аэропорта"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6983732,
+          10.776443
+        ]
+      },
+      "id": "node/3168120096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168120097",
+        "highway": "bus_stop",
+        "name": "Thư Viện Tổng Hợp TPHCM",
+        "name:ru": "109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6993334,
+          10.7751978
+        ]
+      },
+      "id": "node/3168120097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168120098",
+        "highway": "bus_stop",
+        "name": "Cao Đẳng Kỹ Thuật Cao Thắng",
+        "name:ru": "109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7009236,
+          10.7714838
+        ]
+      },
+      "id": "node/3168120098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168270438",
+        "highway": "bus_stop",
+        "name": "Bảo tàng chứng tích Chiến tranh",
+        "name:pt": "War museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.692624,
+          10.7791299
+        ]
+      },
+      "id": "node/3168270438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168349826",
+        "highway": "bus_stop",
+        "name": "Đầu đường Lãnh Binh Thăng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6557849,
+          10.7622628
+        ]
+      },
+      "id": "node/3168349826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168901215",
+        "highway": "bus_stop",
+        "name": "Nguyễn Thông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820441,
+          10.7792426
+        ]
+      },
+      "id": "node/3168901215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168901216",
+        "highway": "bus_stop",
+        "name": "Kỳ Đồng - Trân Quôc Thảo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6828243,
+          10.7839931
+        ]
+      },
+      "id": "node/3168901216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168933105",
+        "highway": "bus_stop",
+        "name": "Ga Sài Gòn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6789233,
+          10.7807343
+        ]
+      },
+      "id": "node/3168933105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168949055",
+        "highway": "bus_stop",
+        "name": "Cầu Calmette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.704148,
+          10.7637598
+        ]
+      },
+      "id": "node/3168949055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168949056",
+        "highway": "bus_stop",
+        "name": "Giao Lộ Nguyễn Tất Thành",
+        "name:en": "102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7065063,
+          10.7647945
+        ]
+      },
+      "id": "node/3168949056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168949057",
+        "highway": "bus_stop",
+        "name": "Bưu Điện Quận 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7076747,
+          10.7639777
+        ]
+      },
+      "id": "node/3168949057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168949058",
+        "highway": "bus_stop",
+        "name": "Bưu điện Quận 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7076423,
+          10.7642207
+        ]
+      },
+      "id": "node/3168949058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168949059",
+        "highway": "bus_stop",
+        "name": "Đại học Nguyễn Tất Thành",
+        "name:en": "102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7093479,
+          10.7618824
+        ]
+      },
+      "id": "node/3168949059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168949060",
+        "highway": "bus_stop",
+        "name": "Đại học Nguyễn Tất Thành"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7099554,
+          10.7616119
+        ]
+      },
+      "id": "node/3168949060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168950761",
+        "highway": "bus_stop",
+        "name": "Đại Học Văn Hóa Nghệ Thuật"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7133298,
+          10.7595536
+        ]
+      },
+      "id": "node/3168950761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168950762",
+        "highway": "bus_stop",
+        "name": "Đối diện Đại Học Văn Hóa Nghệ Thuật"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7135762,
+          10.7594891
+        ]
+      },
+      "id": "node/3168950762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168950763",
+        "highway": "bus_stop",
+        "name": "Ngã 3 KCX Tân Thuận",
+        "name:en": "102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7241693,
+          10.751663
+        ]
+      },
+      "id": "node/3168950763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168950764",
+        "highway": "bus_stop",
+        "name": "Ngã 3 KCX Tân Thuận"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7240543,
+          10.7513085
+        ]
+      },
+      "id": "node/3168950764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168954866",
+        "highway": "bus_stop",
+        "name": "UBND Phường Tân Thuận Tây"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7218858,
+          10.748288
+        ]
+      },
+      "id": "node/3168954866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168954867",
+        "highway": "bus_stop",
+        "name": "Đối diện UBND Phường Tân Thuận Tây"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7221185,
+          10.7481597
+        ]
+      },
+      "id": "node/3168954867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168954868",
+        "highway": "bus_stop",
+        "name": "Giao Lộ Lý Phục Man",
+        "name:en": "102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7216132,
+          10.7434169
+        ]
+      },
+      "id": "node/3168954868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168954869",
+        "highway": "bus_stop",
+        "name": "Giao Lộ Lý Phục Man"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7218316,
+          10.7432355
+        ]
+      },
+      "id": "node/3168954869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168960867",
+        "highway": "bus_stop",
+        "name": "Cầu Đa Khoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7215204,
+          10.7393489
+        ]
+      },
+      "id": "node/3168960867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168960868",
+        "highway": "bus_stop",
+        "name": "Cầu Đa Khoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7217255,
+          10.7390219
+        ]
+      },
+      "id": "node/3168960868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3168960870",
+        "highway": "bus_stop",
+        "name": "Cầu Phú Mỹ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7217298,
+          10.7357653
+        ]
+      },
+      "id": "node/3168960870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3169680595",
+        "highway": "bus_stop",
+        "name": "Đồng Nai - Tam Đảo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6624055,
+          10.7792815
+        ]
+      },
+      "id": "node/3169680595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3169680596",
+        "highway": "bus_stop",
+        "name": "CV Lê Thị Riêng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6653031,
+          10.7836061
+        ]
+      },
+      "id": "node/3169680596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3169680597",
+        "highway": "bus_stop",
+        "name": "Trường Sơn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6621853,
+          10.7813483
+        ]
+      },
+      "id": "node/3169680597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3170025871",
+        "highway": "bus_stop",
+        "name": "Chợ Thiếc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6570468,
+          10.7606311
+        ]
+      },
+      "id": "node/3170025871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171491268",
+        "highway": "bus_stop",
+        "name": "Cầu Ông Lãnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7008688,
+          10.7612598
+        ]
+      },
+      "id": "node/3171491268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171491269",
+        "highway": "bus_stop",
+        "name": "Cầu Ông Lãnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7009487,
+          10.7614109
+        ]
+      },
+      "id": "node/3171491269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171491270",
+        "highway": "bus_stop",
+        "name": "Khánh Hội"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6988767,
+          10.7598511
+        ]
+      },
+      "id": "node/3171491270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171491271",
+        "highway": "bus_stop",
+        "name": "Khánh Hội - Hoàng Diệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6986824,
+          10.7593698
+        ]
+      },
+      "id": "node/3171491271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171491272",
+        "highway": "bus_stop",
+        "name": "TT TDTT  Quận 4",
+        "name:en": "38,72,139,140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7006126,
+          10.7568895
+        ]
+      },
+      "id": "node/3171491272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171491273",
+        "highway": "bus_stop",
+        "name": "TT TDTT Quận 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7005952,
+          10.7568317
+        ]
+      },
+      "id": "node/3171491273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171492371",
+        "highway": "bus_stop",
+        "name": "Cầu Kênh Tẻ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7023641,
+          10.7489773
+        ]
+      },
+      "id": "node/3171492371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171492372",
+        "highway": "bus_stop",
+        "name": "Cầu Kênh Tẻ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7024049,
+          10.7488363
+        ]
+      },
+      "id": "node/3171492372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171492373",
+        "highway": "bus_stop",
+        "name": "Lotte Mart Nguyễn Hữu Thọ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7010258,
+          10.7412405
+        ]
+      },
+      "id": "node/3171492373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171492374",
+        "highway": "bus_stop",
+        "name": "Lotte Mart Nguyễn Hữu Thọ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7011435,
+          10.7413671
+        ]
+      },
+      "id": "node/3171492374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171492375",
+        "highway": "bus_stop",
+        "name": "ĐH Cảnh sát Nhân dân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7002329,
+          10.7365428
+        ]
+      },
+      "id": "node/3171492375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171492376",
+        "highway": "bus_stop",
+        "name": "Đại học Cảnh sát Nhân dân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7002486,
+          10.7362335
+        ]
+      },
+      "id": "node/3171492376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171493701",
+        "highway": "bus_stop",
+        "name": "Bến xe buýt Cư Xá Ngân Hàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7205653,
+          10.7539538
+        ]
+      },
+      "id": "node/3171493701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171493702",
+        "highway": "bus_stop",
+        "name": "Cầu Kênh Tẻ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7032333,
+          10.7517749
+        ]
+      },
+      "id": "node/3171493702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171493703",
+        "highway": "bus_stop",
+        "name": "Lê Văn Lương - Trần Xuân Soạn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7050857,
+          10.7513436
+        ]
+      },
+      "id": "node/3171493703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171493704",
+        "highway": "bus_stop",
+        "name": "179 Lê Văn Lương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7047525,
+          10.7479458
+        ]
+      },
+      "id": "node/3171493704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171493705",
+        "highway": "bus_stop",
+        "name": "Chung Cư Minh Thành"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7042941,
+          10.7447038
+        ]
+      },
+      "id": "node/3171493705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496161",
+        "highway": "bus_stop",
+        "name": "Lê Văn Lương - Nguyễn Thị Thập"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7036829,
+          10.740621
+        ]
+      },
+      "id": "node/3171496161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496162",
+        "highway": "bus_stop",
+        "name": "Bến KDC Tân Quy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.706727,
+          10.7386276
+        ]
+      },
+      "id": "node/3171496162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496163",
+        "highway": "bus_stop",
+        "name": "Đường số 38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7100066,
+          10.738975
+        ]
+      },
+      "id": "node/3171496163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496164",
+        "highway": "bus_stop",
+        "name": "Bưu Điện Quận 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7130756,
+          10.7384999
+        ]
+      },
+      "id": "node/3171496164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496165",
+        "highway": "bus_stop",
+        "name": "Lâm Văn Bền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7156192,
+          10.7384361
+        ]
+      },
+      "id": "node/3171496165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496166",
+        "highway": "bus_stop",
+        "name": "Lâm Văn Bền",
+        "name:en": "17,31,34,139"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.716178,
+          10.7383176
+        ]
+      },
+      "id": "node/3171496166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496167",
+        "highway": "bus_stop",
+        "name": "Cầu Đa Khoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7209346,
+          10.7381059
+        ]
+      },
+      "id": "node/3171496167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496168",
+        "highway": "bus_stop",
+        "name": "Cầu Đa Khoa",
+        "name:en": "17,31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7204466,
+          10.7380478
+        ]
+      },
+      "id": "node/3171496168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496169",
+        "highway": "bus_stop",
+        "name": "Đối diện Nghĩa Trang Liệt Sĩ Nhà Bè"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7300152,
+          10.7405398
+        ]
+      },
+      "id": "node/3171496169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496170",
+        "highway": "bus_stop",
+        "name": "Nghĩa Trang Liệt Sĩ Nhà Bè"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7299095,
+          10.7406855
+        ]
+      },
+      "id": "node/3171496170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496171",
+        "highway": "bus_stop",
+        "name": "Nhà Thiếu Nhi Quận 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7294361,
+          10.7444002
+        ]
+      },
+      "id": "node/3171496171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171496172",
+        "highway": "bus_stop",
+        "name": "Nhà Thiếu Nhi Quận 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7293873,
+          10.7441532
+        ]
+      },
+      "id": "node/3171496172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171497143",
+        "highway": "bus_stop",
+        "name": "Chợ Bùi Văn Ba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7286293,
+          10.7504339
+        ]
+      },
+      "id": "node/3171497143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171497144",
+        "highway": "bus_stop",
+        "name": "Chợ Bùi Văn Ba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.728774,
+          10.7496328
+        ]
+      },
+      "id": "node/3171497144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171497823",
+        "highway": "bus_stop",
+        "name": "Cảng Tân Thuận 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.726852,
+          10.7547345
+        ]
+      },
+      "id": "node/3171497823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171497824",
+        "highway": "bus_stop",
+        "name": "Cảng Tân Thuận 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7265146,
+          10.7547547
+        ]
+      },
+      "id": "node/3171497824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171497825",
+        "highway": "bus_stop",
+        "name": "Chợ Tân Thuận Đông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7238982,
+          10.7553968
+        ]
+      },
+      "id": "node/3171497825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171497826",
+        "highway": "bus_stop",
+        "name": "Chợ Tân Thuận Đông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7239606,
+          10.755301
+        ]
+      },
+      "id": "node/3171497826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171499318",
+        "highway": "bus_stop",
+        "name": "UBND Phường Tân Hưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7011031,
+          10.7517551
+        ]
+      },
+      "id": "node/3171499318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171499319",
+        "highway": "bus_stop",
+        "name": "Tiểu học Trần Xuân Soạn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6970494,
+          10.7517251
+        ]
+      },
+      "id": "node/3171499319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171499320",
+        "highway": "bus_stop",
+        "name": "Cầu Rạch Ông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6928514,
+          10.7514236
+        ]
+      },
+      "id": "node/3171499320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171506752",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6837112,
+          10.7600691
+        ]
+      },
+      "id": "node/3171506752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171506754",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6847143,
+          10.7574881
+        ]
+      },
+      "id": "node/3171506754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171509286",
+        "highway": "bus_stop",
+        "name": "BV Tai Mũi Họng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6962771,
+          10.7664674
+        ]
+      },
+      "id": "node/3171509286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171509287",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6964514,
+          10.7663915
+        ]
+      },
+      "id": "node/3171509287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171528312",
+        "highway": "bus_stop",
+        "name": "Cầu Mật"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6808566,
+          10.7478214
+        ]
+      },
+      "id": "node/3171528312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171528313",
+        "highway": "bus_stop",
+        "name": "Công Viên Phường 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6835099,
+          10.7492364
+        ]
+      },
+      "id": "node/3171528313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171528314",
+        "highway": "bus_stop",
+        "name": "Cao Lỗ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6766608,
+          10.7455097
+        ]
+      },
+      "id": "node/3171528314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171528315",
+        "highway": "bus_stop",
+        "name": "Chợ Phạm Thế Hiển",
+        "name:en": "Bus 140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6724367,
+          10.7438715
+        ]
+      },
+      "id": "node/3171528315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171528316",
+        "highway": "bus_stop",
+        "name": "Cầu Chánh Hưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6696347,
+          10.7433421
+        ]
+      },
+      "id": "node/3171528316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171528317",
+        "highway": "bus_stop",
+        "name": "CA Quận 8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6669155,
+          10.7428671
+        ]
+      },
+      "id": "node/3171528317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171528318",
+        "highway": "bus_stop",
+        "name": "Cầu Hiệp Ân",
+        "name:en": "Bus 140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6634718,
+          10.742259
+        ]
+      },
+      "id": "node/3171528318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171528319",
+        "highway": "bus_stop",
+        "name": "UBND Quận 8",
+        "name:en": "59,140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6583787,
+          10.7413155
+        ]
+      },
+      "id": "node/3171528319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171978000",
+        "highway": "bus_stop",
+        "name": "KDC Him Lam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6663311,
+          10.740045
+        ]
+      },
+      "id": "node/3171978000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171990256",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Chợ Rẫy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6583478,
+          10.7561944
+        ]
+      },
+      "id": "node/3171990256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3175002778",
+        "highway": "bus_stop",
+        "name": "Giao Đường số 8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6894305,
+          10.7360544
+        ]
+      },
+      "id": "node/3175002778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3175002779",
+        "highway": "bus_stop",
+        "name": "Nhà Thuốc Trung Sơn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6893038,
+          10.7451613
+        ]
+      },
+      "id": "node/3175002779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3175002780",
+        "highway": "bus_stop",
+        "name": "Nhà Thuốc Trung Sơn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6892563,
+          10.7458631
+        ]
+      },
+      "id": "node/3175002780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3175002781",
+        "highway": "bus_stop",
+        "name": "THCS Dương Bá Trạc",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6885684,
+          10.7484615
+        ]
+      },
+      "id": "node/3175002781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3175002782",
+        "highway": "bus_stop",
+        "name": "THCS Dương Bá Trạc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6884948,
+          10.7483299
+        ]
+      },
+      "id": "node/3175002782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3178465561",
+        "highway": "bus_stop",
+        "name": "Trần Quốc Thảo - Điện Biên Phủ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6881451,
+          10.7815324
+        ]
+      },
+      "id": "node/3178465561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3178465562",
+        "highway": "bus_stop",
+        "name": "Trần Quốc Thảo - Nguyễn Đình Chiểu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6902436,
+          10.7795928
+        ]
+      },
+      "id": "node/3178465562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3178952974",
+        "highway": "bus_stop",
+        "name": "THPT Trần Đại Nghĩa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7013162,
+          10.7782235
+        ]
+      },
+      "id": "node/3178952974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3180486881",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6884219,
+          10.7698832
+        ]
+      },
+      "id": "node/3180486881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3180486882",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6868612,
+          10.7682695
+        ]
+      },
+      "id": "node/3180486882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3180506126",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6829866,
+          10.7663317
+        ]
+      },
+      "id": "node/3180506126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281946",
+        "highway": "bus_stop",
+        "name": "Ký Con"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6983789,
+          10.7672988
+        ]
+      },
+      "id": "node/3181281946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281947",
+        "highway": "bus_stop",
+        "name": "Cầu Calmette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6998546,
+          10.7651414
+        ]
+      },
+      "id": "node/3181281947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281948",
+        "highway": "bus_stop",
+        "name": "Cầu Calmette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7000523,
+          10.7651109
+        ]
+      },
+      "id": "node/3181281948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281951",
+        "highway": "bus_stop",
+        "name": "Chợ Nga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6956333,
+          10.7608853
+        ]
+      },
+      "id": "node/3181281951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281952",
+        "highway": "bus_stop",
+        "name": "Chợ Nga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6958906,
+          10.7610315
+        ]
+      },
+      "id": "node/3181281952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281953",
+        "highway": "bus_stop",
+        "name": "Giao Lộ Trần Đình Xu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6926469,
+          10.7587695
+        ]
+      },
+      "id": "node/3181281953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281954",
+        "highway": "bus_stop",
+        "name": "Giao Lộ Trần Đình Xu",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6921356,
+          10.7585628
+        ]
+      },
+      "id": "node/3181281954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281955",
+        "highway": "bus_stop",
+        "name": "Cầu Nguyễn Văn Cừ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6864458,
+          10.753473
+        ]
+      },
+      "id": "node/3181281955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281956",
+        "highway": "bus_stop",
+        "name": "Cầu Nguyễn Văn Cừ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6872369,
+          10.7541194
+        ]
+      },
+      "id": "node/3181281956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281957",
+        "highway": "bus_stop",
+        "name": "Cầu Chữ Y",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.683401,
+          10.7518841
+        ]
+      },
+      "id": "node/3181281957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281958",
+        "highway": "bus_stop",
+        "name": "Cầu Chữ Y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6842544,
+          10.7515752
+        ]
+      },
+      "id": "node/3181281958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281959",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Nhiệt Đới"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6789223,
+          10.7522187
+        ]
+      },
+      "id": "node/3181281959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181281960",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Nhiệt Đới"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6785737,
+          10.7520946
+        ]
+      },
+      "id": "node/3181281960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181284823",
+        "highway": "bus_stop",
+        "name": "Chợ Hòa Bình"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6761997,
+          10.7508351
+        ]
+      },
+      "id": "node/3181284823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181284824",
+        "highway": "bus_stop",
+        "name": "Chợ Hòa Bình"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6766045,
+          10.7513951
+        ]
+      },
+      "id": "node/3181284824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181284826",
+        "highway": "bus_stop",
+        "name": "Cầu Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6696244,
+          10.7501519
+        ]
+      },
+      "id": "node/3181284826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181284827",
+        "highway": "bus_stop",
+        "name": "Chợ Lớn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6625973,
+          10.7498367
+        ]
+      },
+      "id": "node/3181284827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181284828",
+        "highway": "bus_stop",
+        "name": "Chợ Lớn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6642449,
+          10.7502961
+        ]
+      },
+      "id": "node/3181284828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181284829",
+        "highway": "bus_stop",
+        "name": "Bưu Điện Quận 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6594349,
+          10.7487468
+        ]
+      },
+      "id": "node/3181284829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3181284830",
+        "highway": "bus_stop",
+        "name": "Bưu điện Quận 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6591403,
+          10.7485345
+        ]
+      },
+      "id": "node/3181284830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3184829221",
+        "highway": "bus_stop",
+        "name": "Nguyễn Chí Thanh - Nguyễn Kim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6624337,
+          10.7586236
+        ]
+      },
+      "id": "node/3184829221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3184829222",
+        "highway": "bus_stop",
+        "name": "Chung Cư Ngô Quyền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6652214,
+          10.759189
+        ]
+      },
+      "id": "node/3184829222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3184829223",
+        "highway": "bus_stop",
+        "name": "Phổ Thông Năng Khiếu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6669516,
+          10.7595169
+        ]
+      },
+      "id": "node/3184829223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3184829224",
+        "highway": "bus_stop",
+        "name": "Trường Dự Bị Đại Học TPHCM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6716676,
+          10.7604432
+        ]
+      },
+      "id": "node/3184829224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3185762980",
+        "highway": "bus_stop",
+        "name": "Ngã 7 Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6747747,
+          10.7667344
+        ]
+      },
+      "id": "node/3185762980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3185762981",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6795568,
+          10.7631515
+        ]
+      },
+      "id": "node/3185762981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3185778720",
+        "highway": "bus_stop",
+        "name": "Công viên Hòa Bình"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6740502,
+          10.7606274
+        ]
+      },
+      "id": "node/3185778720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3185778721",
+        "highway": "bus_stop",
+        "name": "Giao Lộ Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6706502,
+          10.7584241
+        ]
+      },
+      "id": "node/3185778721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3185778722",
+        "highway": "bus_stop",
+        "name": "Công viên Văn Lang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6682449,
+          10.757002
+        ]
+      },
+      "id": "node/3185778722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3186096225",
+        "highway": "bus_stop",
+        "name": "Chung Cư Giai Việt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6674076,
+          10.7366349
+        ]
+      },
+      "id": "node/3186096225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3186096226",
+        "highway": "bus_stop",
+        "name": "Trung Tâm TDTT Quận 8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.669646,
+          10.7390701
+        ]
+      },
+      "id": "node/3186096226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3186096227",
+        "highway": "bus_stop",
+        "name": "Giao lộ Hưng Phú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.669081,
+          10.7475552
+        ]
+      },
+      "id": "node/3186096227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3186096228",
+        "highway": "bus_stop",
+        "name": "Giao lộ Hưng Phú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.668998,
+          10.7470912
+        ]
+      },
+      "id": "node/3186096228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3186257042",
+        "highway": "bus_stop",
+        "name": "Chung Cư Phan Văn Trị"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6778381,
+          10.7570708
+        ]
+      },
+      "id": "node/3186257042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3186257043",
+        "highway": "bus_stop",
+        "name": "Đại học Sài Gòn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6813263,
+          10.7584956
+        ]
+      },
+      "id": "node/3186257043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3186264463",
+        "highway": "bus_stop",
+        "name": "Nguyễn Biểu - Nguyễn Trãi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6828098,
+          10.7583515
+        ]
+      },
+      "id": "node/3186264463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3186275563",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Quận 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7241822,
+          10.7378474
+        ]
+      },
+      "id": "node/3186275563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3186275564",
+        "highway": "bus_stop",
+        "name": "Đối diện Bệnh viện Quận 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7252422,
+          10.7378544
+        ]
+      },
+      "id": "node/3186275564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3232855069",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6757955,
+          10.7368693
+        ]
+      },
+      "id": "node/3232855069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3232855080",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6788227,
+          10.7383043
+        ]
+      },
+      "id": "node/3232855080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3250474561",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6846598,
+          10.7762428
+        ]
+      },
+      "id": "node/3250474561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3334343861",
+        "addr:street": "Lê Lai",
+        "highway": "bus_stop",
+        "name": "Tôn Thất Tùng",
+        "name:en": "Bus 109 from Airport",
+        "ref": "Q1T040",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6903384,
+          10.7685463
+        ]
+      },
+      "id": "node/3334343861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3335337340",
+        "addr:street": "Thi Sách",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Công Trường Mê Linh",
+        "public_transport": "platform",
+        "ref": "BX06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7057925,
+          10.7770988
+        ]
+      },
+      "id": "node/3335337340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3339195229",
+        "addr:street": "3 Tháng 2",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Nhi Đồng",
+        "ref": "Q10T016",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6704202,
+          10.7693939
+        ]
+      },
+      "id": "node/3339195229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3339195232",
+        "addr:street": "Hai Bà Trưng",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Công Trường Mê Linh",
+        "name:de": "Công Trường Mê Linh",
+        "ref": "Q1T057",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7057151,
+          10.7760974
+        ]
+      },
+      "id": "node/3339195232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3339195233",
+        "addr:street": "Đông Du",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Công Trường Mê Linh",
+        "public_transport": "platform",
+        "ref": "BX07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7055586,
+          10.7769661
+        ]
+      },
+      "id": "node/3339195233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3339195236",
+        "addr:housenumber": "635",
+        "addr:street": "3 Tháng 2",
+        "highway": "bus_stop",
+        "name": "Nhà thờ Tin lành Nguyễn Tri Phương",
+        "ref": "Q10T013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6645805,
+          10.7662392
+        ]
+      },
+      "id": "node/3339195236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3339195237",
+        "addr:housenumber": "273-275",
+        "addr:street": "3 Tháng 2",
+        "highway": "bus_stop",
+        "name": "Nhà thờ Vinh Sơn",
+        "ref": "Q10T017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6722768,
+          10.7703472
+        ]
+      },
+      "id": "node/3339195237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3339195238",
+        "addr:housenumber": "75",
+        "addr:street": "Cao Thắng",
+        "highway": "bus_stop",
+        "name": "Rạp Đại Đồng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6798637,
+          10.7718459
+        ]
+      },
+      "id": "node/3339195238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3339195239",
+        "addr:housenumber": "957",
+        "addr:street": "3 Tháng 2",
+        "highway": "bus_stop",
+        "name": "Trung tâm chăm sóc sức khỏe sinh sản",
+        "ref": "Q11T016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6575014,
+          10.7623635
+        ]
+      },
+      "id": "node/3339195239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3893534555",
+        "name": "27,35,703",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6850509,
+          10.7674768
+        ]
+      },
+      "id": "node/3893534555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3899274117",
+        "name": "Bus stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6946518,
+          10.7816697
+        ]
+      },
+      "id": "node/3899274117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4375184689",
+        "highway": "bus_stop",
+        "name": "quạn 7",
+        "name:vi": "quạn 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7045293,
+          10.7501952
+        ]
+      },
+      "id": "node/4375184689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4427433890",
+        "highway": "bus_stop",
+        "name": "Автобус 152 рынок Бен Тхань - Аэропорт",
+        "name:en": "Bus 152 - Airport Shuttle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6985455,
+          10.7707615
+        ]
+      },
+      "id": "node/4427433890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4555507095",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6854988,
+          10.7791928
+        ]
+      },
+      "id": "node/4555507095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4587199116",
+        "highway": "bus_stop",
+        "name": "Ngã ba NTMK - BHTQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6903035,
+          10.7750301
+        ]
+      },
+      "id": "node/4587199116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4587199117",
+        "highway": "bus_stop",
+        "name": "Trung tâm TDTT Phan Đình Phùng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6943381,
+          10.7810797
+        ]
+      },
+      "id": "node/4587199117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4587199118",
+        "highway": "bus_stop",
+        "name": "Trường Tiểu học Phú Thọ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6525813,
+          10.760927
+        ]
+      },
+      "id": "node/4587199118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4603781754",
+        "highway": "bus_stop",
+        "name:en": "65",
+        "note": "171 PNL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6941176,
+          10.7690424
+        ]
+      },
+      "id": "node/4603781754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4603781755",
+        "highway": "bus_stop",
+        "name:en": "65",
+        "note": "171 PNL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6939822,
+          10.768989
+        ]
+      },
+      "id": "node/4603781755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607247004",
+        "highway": "bus_stop",
+        "name": "Le Lai",
+        "name:de": "Le Lai",
+        "name:en": "Le Lai",
+        "name:vi": "Le Lai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6850404,
+          10.7688661
+        ]
+      },
+      "id": "node/4607247004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4609802777",
+        "highway": "bus_stop",
+        "name": "Đối diện Ký Túc Xá",
+        "name:en": "Bus 152 from Airport",
+        "note": "12 Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.694555,
+          10.7671192
+        ]
+      },
+      "id": "node/4609802777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4614188879",
+        "highway": "bus_stop",
+        "name": "Bưu điện Quận 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6589005,
+          10.7512587
+        ]
+      },
+      "id": "node/4614188879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4614188880",
+        "highway": "bus_stop",
+        "name": "Bưu điện Quận 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6592138,
+          10.7512189
+        ]
+      },
+      "id": "node/4614188880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4615633662",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.658545,
+          10.7534634
+        ]
+      },
+      "id": "node/4615633662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4615633663",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6587388,
+          10.7533051
+        ]
+      },
+      "id": "node/4615633663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4615972578",
+        "highway": "bus_stop",
+        "name": "Benh Vien Cho Ray",
+        "name:en": "56"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6589964,
+          10.7548259
+        ]
+      },
+      "id": "node/4615972578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4615972579",
+        "highway": "bus_stop",
+        "name": "Benh Vien Cho Ray",
+        "name:en": "56",
+        "name:vi": "Benh Vien Cho Ray"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6589361,
+          10.7544966
+        ]
+      },
+      "id": "node/4615972579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4616029219",
+        "highway": "bus_stop",
+        "name": "Hồng Bàng - Tạ Uyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6532831,
+          10.7537567
+        ]
+      },
+      "id": "node/4616029219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4618427503",
+        "highway": "bus_stop",
+        "name": "Cầu Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6680244,
+          10.7505305
+        ]
+      },
+      "id": "node/4618427503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621858713",
+        "highway": "bus_stop",
+        "name": "Bệnh viện An Bình"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6726012,
+          10.7551404
+        ]
+      },
+      "id": "node/4621858713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621858714",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Nguyễn Trãi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67572,
+          10.7561118
+        ]
+      },
+      "id": "node/4621858714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621858715",
+        "highway": "bus_stop",
+        "name": "Tiểu học Trần Quốc Toản"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.673296,
+          10.7564293
+        ]
+      },
+      "id": "node/4621858715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621858723",
+        "highway": "bus_stop",
+        "name": "526 An Dương Vương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6752447,
+          10.757838
+        ]
+      },
+      "id": "node/4621858723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621858724",
+        "highway": "bus_stop",
+        "name": "Bệnh viện Nguyễn Trãi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6750476,
+          10.7582657
+        ]
+      },
+      "id": "node/4621858724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621858725",
+        "highway": "bus_stop",
+        "name": "66 An Dương Vương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6708974,
+          10.7570052
+        ]
+      },
+      "id": "node/4621858725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621858726",
+        "highway": "bus_stop",
+        "name": "121 An Dương Vương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.670508,
+          10.7567411
+        ]
+      },
+      "id": "node/4621858726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4622037486",
+        "highway": "bus_stop",
+        "name": "Ngã 6 Nguyễn Tri Phương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6686215,
+          10.7592225
+        ]
+      },
+      "id": "node/4622037486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623071217",
+        "highway": "bus_stop",
+        "name": "Sân Thống Nhất"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6625398,
+          10.7600965
+        ]
+      },
+      "id": "node/4623071217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623078285",
+        "highway": "bus_stop",
+        "name": "Nguyễn Tri Phương - Bà Hạt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6677117,
+          10.7655253
+        ]
+      },
+      "id": "node/4623078285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623078286",
+        "highway": "bus_stop",
+        "name": "Nguyễn Tri Phương - Bà Hạt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6675769,
+          10.76537
+        ]
+      },
+      "id": "node/4623078286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623079391",
+        "highway": "bus_stop",
+        "name": "Nguyễn Tri Phương - 3/2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6673755,
+          10.767061
+        ]
+      },
+      "id": "node/4623079391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4646788531",
+        "highway": "bus_stop",
+        "name": "Maximart 3/2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6807203,
+          10.7770302
+        ]
+      },
+      "id": "node/4646788531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4704713796",
+        "highway": "bus_stop",
+        "name": "Bus Can Tho",
+        "name:vi": "Bus Can Tho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6674043,
+          10.7375898
+        ]
+      },
+      "id": "node/4704713796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4766351183",
+        "highway": "bus_stop",
+        "name": "Xe 50 ĐHBK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6580718,
+          10.7719637
+        ]
+      },
+      "id": "node/4766351183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4780316225",
+        "highway": "bus_stop",
+        "name": "Công ty Kim may organ",
+        "name:vi": "Công ty Kim may organ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7340774,
+          10.7551642
+        ]
+      },
+      "id": "node/4780316225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4822284922",
+        "highway": "bus_stop",
+        "name": "Ctyibi",
+        "name:vi": "Ctyibi",
+        "operator": "yyyyy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7127296,
+          10.7360143
+        ]
+      },
+      "id": "node/4822284922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4855836437",
+        "highway": "bus_stop",
+        "name": "Cityview Shuttle Bus Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7047024,
+          10.7744984
+        ]
+      },
+      "id": "node/4855836437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4875102022",
+        "highway": "bus_stop",
+        "name:zh": "59號公車下車到凱南巴士"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6691152,
+          10.7586607
+        ]
+      },
+      "id": "node/4875102022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4877811751",
+        "highway": "bus_stop",
+        "name": "Hoa Hung Bus Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6764919,
+          10.780477
+        ]
+      },
+      "id": "node/4877811751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4877811752",
+        "highway": "bus_stop",
+        "name:en": "Bus 65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6765503,
+          10.7805958
+        ]
+      },
+      "id": "node/4877811752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4884593221",
+        "highway": "bus_stop",
+        "name": "So Do Lo Trinh Tuyen",
+        "name:en": "Bus 1,139,152",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.688029,
+          10.7595062
+        ]
+      },
+      "id": "node/4884593221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4926870821",
+        "highway": "bus_stop",
+        "name": "trạm xe Huệ nghĩa 174 duong tử Giang -p4-q11 tan van trang",
+        "name:vi": "trạm xe Huệ nghĩa 174 duong tử Giang -p4-q11 tan van trang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6544991,
+          10.7572188
+        ]
+      },
+      "id": "node/4926870821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5137481121",
+        "highway": "bus_stop",
+        "name": "Hưng phú thịnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6735169,
+          10.7749705
+        ]
+      },
+      "id": "node/5137481121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5175724330",
+        "highway": "bus_stop",
+        "name": "di tiếp",
+        "name:vi": "di tiếp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6544178,
+          10.7581131
+        ]
+      },
+      "id": "node/5175724330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5175729028",
+        "highway": "bus_stop",
+        "name": "di tiếp",
+        "name:vi": "di tiếp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6562343,
+          10.7592062
+        ]
+      },
+      "id": "node/5175729028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5175735722",
+        "highway": "bus_stop",
+        "name": "tram le dai hanh hue nghĩa",
+        "name:vi": "tram le dai hanh hue nghĩa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6590012,
+          10.7586863
+        ]
+      },
+      "id": "node/5175735722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179064421",
+        "highway": "bus_stop",
+        "name": "xeLộcNgân",
+        "name:vi": "ben xe Loc Nganz",
+        "operator": "Cty TNHH Loc Ngan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6596798,
+          10.7666855
+        ]
+      },
+      "id": "node/5179064421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5179064422",
+        "highway": "bus_stop",
+        "name": "xeĐạiDương",
+        "name:vi": "ben xe Dai Duong",
+        "operator": "Cty TNHH Dai Duong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6535228,
+          10.7704164
+        ]
+      },
+      "id": "node/5179064422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5185775030",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.692505,
+          10.7789235
+        ]
+      },
+      "id": "node/5185775030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5192476721",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7003573,
+          10.7771741
+        ]
+      },
+      "id": "node/5192476721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5201457121",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6946163,
+          10.7817488
+        ]
+      },
+      "id": "node/5201457121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235709421",
+        "highway": "bus_stop",
+        "name": "ben xe dai duong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6535391,
+          10.7704135
+        ]
+      },
+      "id": "node/5235709421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235716522",
+        "highway": "bus_stop",
+        "name": "ben xe loc ngan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6597636,
+          10.7666809
+        ]
+      },
+      "id": "node/5235716522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5242148773",
+        "highway": "bus_stop",
+        "name": "Đại Học Bách Khoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6575988,
+          10.7725104
+        ]
+      },
+      "id": "node/5242148773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5263724623",
+        "highway": "bus_stop",
+        "name": "xeĐạiDương",
+        "name:vi": "xeĐạiDương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6534291,
+          10.7702639
+        ]
+      },
+      "id": "node/5263724623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5263727122",
+        "highway": "bus_stop",
+        "name": "xeLộcNgân",
+        "name:vi": "xeLộcNgân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6598669,
+          10.7666943
+        ]
+      },
+      "id": "node/5263727122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271528922",
+        "highway": "bus_stop",
+        "name": "xeĐạiDương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6543058,
+          10.7711334
+        ]
+      },
+      "id": "node/5271528922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271925721",
+        "highway": "bus_stop",
+        "name": "xeKhánhHoa",
+        "name:vi": "xeKhánhHoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6593601,
+          10.7653461
+        ]
+      },
+      "id": "node/5271925721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271926521",
+        "highway": "bus_stop",
+        "name": "xeĐạiDương",
+        "name:vi": "xeĐạiDương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6543043,
+          10.771155
+        ]
+      },
+      "id": "node/5271926521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5320994761",
+        "addr:street": "Tôn Ðức Thắng",
+        "amenity": "ferry_terminal",
+        "name": "Bạch Đằng",
+        "name:en": "Bach Dang Waterbus Station",
+        "name:ja": "バクダン埠頭",
+        "network": "Buýt đường sông TPHCM",
+        "operator": "Saigon Waterbus",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7072226,
+          10.7752611
+        ]
+      },
+      "id": "node/5320994761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5406339031",
+        "highway": "bus_stop",
+        "name:en": "Bus 12,30,65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6806722,
+          10.7782488
+        ]
+      },
+      "id": "node/5406339031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5409688522",
+        "highway": "bus_stop",
+        "name": "Ham Nghi 7",
+        "name:en": "109,152 To Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7009723,
+          10.7709814
+        ]
+      },
+      "id": "node/5409688522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5411925721",
+        "highway": "bus_stop",
+        "name": "Ham Nghi 7",
+        "name:en": "109,152 From Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6997022,
+          10.771113
+        ]
+      },
+      "id": "node/5411925721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5416310315",
+        "highway": "bus_stop",
+        "name": "Ben Bach Dang",
+        "name:en": "Bus 1,2,3,19,45,53,56,88,616,D1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7066444,
+          10.774068
+        ]
+      },
+      "id": "node/5416310315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417843026",
+        "highway": "bus_stop",
+        "name": "Diem Dung Xe Buyt",
+        "name:en": "Bus 1,139,152",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6906818,
+          10.7625302
+        ]
+      },
+      "id": "node/5417843026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5423964121",
+        "highway": "bus_stop",
+        "name": "KTX Tran Hung Dao",
+        "name:en": "Bus 1,45,56, 96"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6947606,
+          10.7674102
+        ]
+      },
+      "id": "node/5423964121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5423964122",
+        "highway": "bus_stop",
+        "name": "KTX Tran Hung Dao",
+        "name:en": "1,35,45,50,56,96,139,152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6947276,
+          10.7671733
+        ]
+      },
+      "id": "node/5423964122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5423964221",
+        "highway": "bus_stop",
+        "name": "Rap Hung Dao",
+        "name:en": "1,45,56,96,139,152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6932069,
+          10.7654157
+        ]
+      },
+      "id": "node/5423964221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5423964222",
+        "highway": "bus_stop",
+        "name": "Rap Hung Dao",
+        "name:en": "1,35,45,56,96,139,152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6930793,
+          10.76552
+        ]
+      },
+      "id": "node/5423964222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5436848728",
+        "highway": "bus_stop",
+        "name": "Nguyen Van Linh",
+        "name:en": "17,31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7188704,
+          10.7380378
+        ]
+      },
+      "id": "node/5436848728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5436849621",
+        "highway": "bus_stop",
+        "name": "Mieu Ba Co",
+        "name:en": "17,34,37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7128429,
+          10.7517754
+        ]
+      },
+      "id": "node/5436849621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5436849622",
+        "highway": "bus_stop",
+        "name": "Mieu Ba Co",
+        "name:en": "17,34,37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7125737,
+          10.7519149
+        ]
+      },
+      "id": "node/5436849622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5439405421",
+        "highway": "bus_stop",
+        "name:en": "Bus No.1",
+        "operator": "."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6807565,
+          10.7550408
+        ]
+      },
+      "id": "node/5439405421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5598917849",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6712031,
+          10.7689405
+        ]
+      },
+      "id": "node/5598917849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5604189222",
+        "highway": "bus_stop",
+        "name:en": "Hanh Cafe Office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6899025,
+          10.7637635
+        ]
+      },
+      "id": "node/5604189222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5604257722",
+        "highway": "bus_stop",
+        "name": "Diem Dung Xe Buyt",
+        "name:en": "Bus 150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6923639,
+          10.7807738
+        ]
+      },
+      "id": "node/5604257722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5606378681",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Futa Buslines",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7293293,
+          10.7771306
+        ]
+      },
+      "id": "node/5606378681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5661470028",
+        "highway": "bus_stop",
+        "name:en": "Bus 11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7234971,
+          10.7733267
+        ]
+      },
+      "id": "node/5661470028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5683584121",
+        "highway": "bus_stop",
+        "name": "Sapaco terminus from Phnom Penh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6904216,
+          10.7670753
+        ]
+      },
+      "id": "node/5683584121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5772606966",
+        "highway": "bus_stop",
+        "name": "Thành Thái - Tô Hiến Thành"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6636414,
+          10.7763437
+        ]
+      },
+      "id": "node/5772606966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5778688812",
+        "highway": "bus_stop",
+        "name": "Nguyễn Kim - 3/2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6616495,
+          10.7641677
+        ]
+      },
+      "id": "node/5778688812"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+.ie6 img {
+	width:100%;
+}
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	}
+/* -----------------------------------------------loai bo 000webhost-------------------------- */
+a{display:none;}
+#content a{display:block;float:left;}
+#content span{float:left;}
+#menu a{display:block;width:100%;height:100%;}
+#footer a{display:block;}
+#left a{display:block;width:100%;height:100%;}
+#header a{display:block;float:right;line-height:10px;}
+
+	*{
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		}
+
+	body{
+		background-repeat: repeat;
+		background-color: #00CCCC;
+		font-family:tahoma, "DejaVu Sans Condensed", "sans-serif";
+		font-size:15px;
+		background-color:#F3F3F3;
+		color:#069;
+			}
+		#main,#header,#menu,#content,#footer{
+			position:relative;
+			float:left;
+			}
+		#main{
+			position: relative;
+			float:left;
+			width:80%;
+			height: auto;
+			margin-left: 10%;
+			}
+		#header, #footer{
+			width: 100%;
+			height: auto;
+			background-color: white;
+			float:left;
+			position: relative;
+			}	
+		#header{
+			/*background-image: url(../img/14.png);*/
+			background-color: #00CC66;
+			background-size: 100% 100%;
+			background-repeat:no-repeat;
+			/*margin-bottom:1%;*/
+			width: 100%;
+			height: auto;
+			background-color: red;
+			}
+		#menu{
+			position: relative;
+			float: left;
+			width: 100%;
+			height: auto;
+		}
+		#content{
+			position: relative;
+			float: left;
+			width: 100%;
+			height: auto;
+		}
+		#content .container{
+			position: relative;
+			float: left;
+			width: 100%;
+			height: auto;
+		}
+		/*-----------------Posting---------------*/
+		.post{
+			width: 100%;
+			height: 160px;
+			margin-top: 1%;
+			border-radius: 4px;
+			border: 1px solid #CCC;
+			background-color: white;
+		}
+		.post .picture{
+			width: 200px;
+			height: 130px;
+			padding-left: 2%;
+			margin-top: 1%;
+		}
+		.post .picture img{
+			width: 200px;
+			height: 130px;
+		}
+
+		.post .notify{
+			width: 100%;
+			height: auto;
+			padding: 1%;
+		}
+		.post .notify h2{
+			width: 100%;
+			font-size: 18px;
+		}
+		.post .notify a{
+			width: 100%;
+			text-decoration: none;
+			color: #363838;
+		}
+		.post .notify a:hover{
+			width: 100%;
+			color: #989c9e;
+			text-decoration: underline;
+		}
+		.post .notify p{
+			width: 100%;
+			color: #989c9e;
+			padding-top: 5%; 
+		}
+
+		#footer{
+			width: 100%;
+			height: auto;
+			margin-top: 1%;
+		}
