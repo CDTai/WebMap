@@ -107,9 +107,10 @@ if(isset($_POST['tentaikhoan'])){
 	if($retval!=null && mysqli_num_rows($retval) > 0){
         $row=mysqli_fetch_assoc($retval);
         if ($row['quyen']==1) {
-		  $_SESSION['admin']=$_POST['tentaikhoan'];
+          $_SESSION['admin']=$_POST['tentaikhoan'];
+          header("Location: http://127.0.0.1/webMap/index.php?xem=themtuyenbus");
         }else $_SESSION['nguoidung']=$_POST['tentaikhoan'];
-		header("Location: index.php?xem=themtuyenbus");
+		header("Location: abc.php");
 	}
 	else echo "<script> alert('Sai tài khoản hoặc mật khẩu! Vui lòng kiểm tra lại!') </script>";	
 	mysqli_close($conn);
@@ -127,8 +128,8 @@ if(isset($_POST['tentaikhoan'])){
     <div class="container">
       <input type="text" class="btn btn-primary" placeholder="Enter Username" name="tentaikhoan">
       <input type="password" class="btn btn-primary" placeholder="Enter Password" name="matkhau">        
-      <button type="submit" class="btn btn-primary" style="width: 90%; height: 50px; margin-left: 5%; margin-top: 1%;">Đăng Nhập</button>
-      <input type="checkbox" style="margin: 10px 30px;">Remember me
+      <button type="submit" class="btn btn-primary" style="width: 40%; height: 50px; margin-left: 30%; margin-top: 1%;">Đăng Nhập</button>
+      <input type="checkbox" style="width:20%; margin-left:15%; background-color:red; margin-top: 1%;">Remember me
     </div>  
   </form>
 </div>

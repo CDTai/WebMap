@@ -51,7 +51,6 @@ a{display:none;}
 		#header, #footer{
 			width: 100%;
 			height: auto;
-			background-color: white;
 			float:left;
 			position: relative;
 			}	
@@ -69,6 +68,44 @@ a{display:none;}
 			float: left;
 			width: 100%;
 			height: auto;
+		}
+		.navbar form .btn{
+			position: relative;
+			width: 100px;
+			margin-left: 0px;
+		}
+		#login{
+			width: 11%;
+			position: relative;
+			float: left;
+		}
+		#login button{
+			width: 100%;
+			position: relative;
+			float: left;
+			background-color: white;
+			color: #000;
+			margin: 0px;
+
+		}
+		#login input{
+			width: 80%;
+			height: auto;
+			margin-left: 10%;
+		}
+		#register{
+			width: 11%;
+			position: relative;
+			float: left;
+		}
+		#register button{
+			width: 100%;
+			position: relative;
+			float: left;
+			background-color: white;
+			color: #000;
+			margin: 0px;
+			margin-left: 5%;
 		}
 		#content{
 			position: relative;
@@ -126,13 +163,74 @@ a{display:none;}
 			color: #989c9e;
 			padding-top: 5%; 
 		}
-
+		/*--------------Footer*/
 		#footer{
 			width: 100%;
 			height: auto;
 			margin-top: 1%;
 		}
-
+		#footer .containerFooter{
+			width: 100%;
+			height: 60px;
+			background-color: #253238;
+		}
+		#footer .containerFooter a{
+			color: white;
+		}
+		#footer .containerFooter .item1{
+			width: 50px;
+			height: 50px;
+			background-color: #3c579c;
+			color: white;
+			border-radius: 30px;
+			box-shadow: 0px 0px 10px #000;
+			margin-top: 5px;
+		}
+		#footer .containerFooter .item2{
+			width: 50px;
+			height: 50px;
+			background-color: #5ab2f2;
+			color: white;
+			border-radius: 30px;
+			box-shadow: 0px 0px 10px #000;
+		}
+		#footer .containerFooter .item3{
+			width: 50px;
+			height: 50px;
+			background-color: #e04a39;
+			color: white;
+			border-radius: 30px;
+			box-shadow: 0px 0px 10px #000;
+		}
+		#footer .containerFooter .item4{
+			width: 50px;
+			height: 50px;
+			background-color: #0185cf;
+			color: white;
+			border-radius: 30px;
+			box-shadow: 0px 0px 10px #000;
+		}
+		#footer .containerFooter .item5{
+			width: 50px;
+			height: 50px;
+			background-color: #eb4b89;
+			color: white;
+			border-radius: 30px;
+			box-shadow: 0px 0px 10px #000;
+		}
+		#footer .containerFooter i{
+			width: 80%;
+			height: auto;
+			padding: 1%;
+			margin-top: 20%;
+			font-size: 30px;
+		}
+		#footer .copyRight{
+			width: 100%;
+			height: 80px;
+			background-color: #1f282d;
+			color: white;
+		}
 		.frame{
 			width: 100%;
 			height: 140px;
@@ -153,4 +251,9 @@ a{display:none;}
 			margin:auto;
 			margin-top: 2%;
 			margin-bottom: 2%;
+		}
+		.frame .btn{
+			width: 30%;
+			height: auto;
+			margin: 0px;
 		}

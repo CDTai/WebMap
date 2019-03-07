@@ -1,7 +1,7 @@
 <?php
 if(isset($_GET['xem'])){
 	switch($_GET['xem']){
-		case 'themtuyenbus': 
+		case 'themtuyenbus':
 			include("php/content/themtuyenbus.php");
 			break;
 		case 'timtuyenbus': 
