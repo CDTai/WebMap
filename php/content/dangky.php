@@ -131,7 +131,7 @@ var dataString ='captcha='+value;
 <button class='btn btn-primary' onclick="document.getElementById('a').style.display='block'">
 Đăng Ký</button>
 <div id="a" class="modal"> 
-  <form class="modal-content animate" action="#" method="POST">    
+  <form class="modal-content animate" action="#" method="POST"> 
     <div class="imgcontainer">
       <span onclick="document.getElementById('a').style.display='none'" class="close" title="Đóng hộp thoại">&times;</span>
       <img src="img/default.png" alt="Avatar" class="avatar">

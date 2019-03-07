@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="lib/leaflet/leaflet.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/indexUser.css">
     <link rel="stylesheet" href="css/esri-leaflet-geocoder.css">
     <link rel="stylesheet" href="css/leaflet.css">
     <link rel="stylesheet" href="css/leaflet-ruler.css">
@@ -94,7 +95,7 @@ session_start();
 						?>
 					</div>
 			</div>
-			<!------------------- Menu----------------->
+			<!-------------------Menu----------------->
 			<div id="menu"> 
 				<?php 
 					if(isset($_SESSION['admin'])){
@@ -107,16 +108,15 @@ session_start();
 						echo "<li><a href='index.php?xem=timbus'>Tìm Đường</a></li>";
 						echo "</ul>";
 					}
-				?> 
-			</div>  
-			<!------------------- Content-------------->
-			<div id="content"><?php 
+				?>
+			</div>
+			<!-------------------Content-------------->
+			<div id="content"><?php
 			if(isset($_SESSION['nguoidung'])){
 				include('php/content/timbus.php');
-				} else include('php/content.php');
-			?></div> 
-			<!------------------- Footer-------------->
-			<div id="footer"><?php include('php/footer.php'); ?></div>
+			} else include('php/content.php');?></div>
+			<!-------------------Footer-------------->
+			<div id="footer"><?php include('php/footer.php')?></div>
 	</div>
 </body>
 </html>
