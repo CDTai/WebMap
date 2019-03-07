@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,13 +18,12 @@
 </head>
 <body style="" onload="startTime();">
 	<div id="main">
-        <div id="header"><?php include('php/header.php');?></div>
-        	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div id="header"><?php include('php/header.php');?></div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 			  <a class="navbar-brand" href="#">LOGO</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span> 	
 			  </button>
-
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
 			      <li class="nav-item active">
@@ -43,12 +43,14 @@
 			          <a class="dropdown-item text-primary" href="#">Giới Thiệu Chung</a>
 			          <a class="dropdown-item text-primary" href="#">Hướng Dẫn Sử Dụng</a>
 			      </li>
-			    </ul>
+					</ul>
 			    <form class="form-inline my-2 my-lg-0">
 			      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-			      <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
-			    </form>
-			  </div>
+						<button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+					</form>
+					<div id="login"><?php include('php/content/dangnhapUser.php'); ?></div>
+					<div id="register"><?php include('php/content/dangky.php'); ?></div>
+			</div>
 			</nav>
         <div id="content">
         	<div class="row">
@@ -60,7 +62,7 @@
         		</div>
         	</div>
         </div>
-        <div id="footer">footer</div>
+        <div id="footer"><?php include('php/footer.php');?></div>
     </div>
 </body>
 </html>
