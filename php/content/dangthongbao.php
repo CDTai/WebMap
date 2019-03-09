@@ -61,6 +61,12 @@ function kiemtra(){
 #-------------------------Đăng thông báo----------------------
 if(isset($_POST["noidung"])){
 	require_once('connect.php');
+	$sql1 = "SET @autoid:= 0;";
+    mysqli_query($conn,$sql1) or die("<script> alert('Không thể thêm1!')</script>");
+    $sql2= "UPDATE thongbao SET ma_thongbao=@autoid:=(@autoid+1);";
+    mysqli_query($conn,$sql2) or die("<script> alert('Không thể thêm2!')</script>");
+    $sql3= "ALTER table thongbao AUTO_INCREMENT=1;";
+    mysqli_query($conn,$sql3) or die("<script> alert('Không thể thêm3!')</script>");
 	#Kiểm tra file ảnh có đúng định dạng không
 	if($_FILES["hinhanh"]["name"]!=""){
 		$file_part=$_FILES["hinhanh"]["name"];

@@ -122,7 +122,7 @@ time#icon:hover, time#icon:focus
 			  <em id="thu"></em>
 			</time>
 		</div>
-		<div class="col">
+		<div class="col-7">
 			<time datetime="2014-09-20" id="icon">
 			  <strong>Time</strong>
 			  <span id="time"></span>

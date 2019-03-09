@@ -3,7 +3,6 @@
 <html>
 <head>
 	<title>Index User</title>
-	<head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -14,12 +13,28 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/loadTime.js"></script>
-    </head>
 </head>
+<script>
+		$(document).ready(function(){	
+			$(window).scroll(function(){
+				if($(window).scrollTop() - $("#content").position().top < 0){
+					$('#menu1').css({'position':'relative'});
+					$('#menu1').css({'width':'100%'});
+				}else{
+					$('#menu1').css({'position':'fixed'});
+					$('#menu1').css({'cursor':' pointer'});
+					$('#menu1').css({'top':'0%'});
+					$('#menu1').css({'z-index':'4'});
+					$('#menu1').css({'left':'0%'});
+					$('#menu1').css({'width':'100%'});
+				}
+			});
+		});
+</script>
 <body style="" onload="startTime();">
 	<div id="main">
       <div id="header"><?php include('php/header.php');?></div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav id="menu1" class="navbar navbar-expand-lg navbar-dark bg-primary">
 			  <a class="navbar-brand" href="#">LOGO</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span> 	

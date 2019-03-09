@@ -6,4 +6,5 @@ session_start();
             $mes = '1';
         } 
     }
+echo $mes;
 ?>

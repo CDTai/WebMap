@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="lib/leaflet/leaflet.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/indexUser.css">
+    <!-- <link rel="stylesheet" href="css/indexUser.css"> -->
     <link rel="stylesheet" href="css/esri-leaflet-geocoder.css">
     <link rel="stylesheet" href="css/leaflet.css">
     <link rel="stylesheet" href="css/leaflet-ruler.css">

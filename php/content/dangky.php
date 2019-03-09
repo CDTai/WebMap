@@ -110,17 +110,45 @@ window.onclick = function(event) {
     }
 }
 function getCapcha(){
-value=$('#captcha').val();
-var dataString ='captcha='+value;
+    username=$('#username').val();
+    pass=$('#pass').val();
+    repass=$('#repass').val();
+    var email=document.getElementById('email');
+    var filter=/^[0-9A-Za-z]+[0-9A-Za-z_]*@[\w\d.]+.\w{2,4}$/;
+    var testSDT = /((09|03|07|08|05)+([0-9]{8})\b)/g;
+    sdt=$('#sdt').val();
+    captcha=$('#captcha').val();
+    if(username=="" || pass=="" || repass=="" || email=="" || sdt=="" || captcha==""){
+        alert('Vui lòng nhập đầy đủ thông tin!');
+        return 0;
+    } 
+    if(pass!==repass){
+        alert('Mật khẩu và nhập lại mật khẩu phải giống nhau!');
+        return 0;
+        } 
+    if(!filter.test(email.value)){
+        alert('Đại chỉ email không hợp lệ!');
+        email.forcus();
+        return 0;
+    }
+    if(testSDT.test(sdt) == false){
+            alert('Số điện thoại của bạn không đúng định dạng!');
+            return 0;
+        }
+var dataString ='captcha='+captcha;
 			$.ajax
 			({
 			type: "POST",
 			url: "php/content/action_captcha.php",
 			data: dataString,
 			success: function(resultData) { 
-                alert(resultData)
-
-			//$('#thongbao').html('thành công.').parent().fadeIn().delay(1000).fadeOut('slow');
+            if(resultData==0){
+                alert(resultData);
+                $('#thongbao').html("Không Thành công: Thông tin của bạn chưa được gởi đi!!!");
+            } else {
+                document.getElementById('formDangky').submit();
+                alert("Đã gửi thông tin đăng ký!");
+                }
 		  	 },
 		  	 error: function(resultData){
     				alert('error!'+resultData);
@@ -128,10 +156,32 @@ var dataString ='captcha='+value;
 			});
         }
 </script>
+<?php
+if(isset($_POST['captcha'])){
+    include('connect.php');
+    $sql1 = "SET @autoid:= 0;";
+    mysqli_query($conn,$sql1) or die("<script> alert('Không thể thêm1!')</script>");
+    $sql2= "UPDATE taikhoan SET id=@autoid:=(@autoid+1);";
+    mysqli_query($conn,$sql2) or die("<script> alert('Không thể thêm2!')</script>");
+    $sql3= "ALTER table taikhoan AUTO_INCREMENT=1;";
+    mysqli_query($conn,$sql3) or die("<script> alert('Không thể thêm3!')</script>");
+    $pass=md5($_POST['pass']);
+    $username=($_POST['username']);
+	// Xử lý để tránh MySQL injection
+	$username = stripslashes($username);
+	$pass = stripslashes($pass);
+	$username = mysqli_real_escape_string($conn,$username);
+	$pass = mysqli_real_escape_string($conn,$pass);
+    $sql = "INSERT INTO taikhoan(tentaikhoan,matkhau,email,sdt,quyen) VALUES('$username','$pass','{$_POST['email']}','{$_POST['sdt']}',0);";
+    mysqli_query($conn,$sql) or die("<script> alert('Không thể thêm!')</script>");
+    echo "<script>alert('Đăng ký thành công!')</script>";
+    mysqli_close($conn);
+	}
+?>
 <button class='btn btn-primary' onclick="document.getElementById('a').style.display='block'">
 Đăng Ký</button>
 <div id="a" class="modal"> 
-  <form class="modal-content animate" action="#" method="POST"> 
+  <form class="modal-content animate" action="#" method="POST" autocomplete="off" id="formDangky"> 
     <div class="imgcontainer">
       <span onclick="document.getElementById('a').style.display='none'" class="close" title="Đóng hộp thoại">&times;</span>
       <img src="img/default.png" alt="Avatar" class="avatar">
@@ -139,12 +189,13 @@ var dataString ='captcha='+value;
     </div>
     <div class="container">
       <input type="input" id="username" class="dangky" placeholder="Nhập tên tài khoản" name="username">
-      <input type="password" class="form-control" placeholder="Nhập mật khẩu" name="pass">  
-      <input type="password" class="form-control" placeholder="Nhập lại mật khẩu" name="repass">
-      <input type="input" class="dangky" placeholder="Nhập email" name="email"> 
-      <input type="input" class="dangky" placeholder="Nhập số điện thoại" name="sdt"> 
+      <input type="password" id="pass" class="form-control" placeholder="Nhập mật khẩu" name="pass">  
+      <input type="password" id="repass" class="form-control" placeholder="Nhập lại mật khẩu" name="repass">
+      <input type="input" id="email" class="dangky" placeholder="Nhập email" name="email"> 
+      <input type="text" id="sdt" class="dangky" placeholder="Nhập số điện thoại" name="sdt"> 
       <input type="text" name="captcha" id="captcha" maxlength="6" size="6"><img src="http://127.0.0.1/webMap/php/content/captcha_code.php" title="" alt="" />
       <button type="button" class="btn btn-primary" onclick="getCapcha();" style="width: 40%; height: 50px; margin-left: 30%; margin-top: 1%;">Đăng Nhập</button>
+      <div style="margin-top: 15%;" id="thongbao">
     </div>  
   </form>
 </div>
